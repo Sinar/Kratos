@@ -1,6 +1,6 @@
 # Be sure to restart your server when you modify this file.
 
-Kratos::Application.config.session_store :cookie_store, key: '_Kratos_session'
+Kratos::Application.config.session_store :cookie_store, key: '_kratos_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
