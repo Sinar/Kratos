@@ -1,0 +1,1107 @@
+[
+    {
+        "region": 8,
+        "id": 1,
+        "name": "padang besar"
+    },
+    {
+        "region": 8,
+        "id": 2,
+        "name": "kangar"
+    },
+    {
+        "region": 8,
+        "id": 3,
+        "name": "arau"
+    },
+    {
+        "region": 2,
+        "id": 4,
+        "name": "langkawi"
+    },
+    {
+        "region": 2,
+        "id": 5,
+        "name": "jerlun"
+    },
+    {
+        "region": 2,
+        "id": 6,
+        "name": "kubang pasu"
+    },
+    {
+        "region": 2,
+        "id": 7,
+        "name": "padang terap"
+    },
+    {
+        "region": 2,
+        "id": 8,
+        "name": "pokok sena"
+    },
+    {
+        "region": 2,
+        "id": 9,
+        "name": "alor star"
+    },
+    {
+        "region": 2,
+        "id": 10,
+        "name": "kuala kedah"
+    },
+    {
+        "region": 2,
+        "id": 11,
+        "name": "pendang"
+    },
+    {
+        "region": 2,
+        "id": 12,
+        "name": "jerai"
+    },
+    {
+        "region": 2,
+        "id": 13,
+        "name": "sik"
+    },
+    {
+        "region": 2,
+        "id": 14,
+        "name": "merbok"
+    },
+    {
+        "region": 2,
+        "id": 15,
+        "name": "sungai petani"
+    },
+    {
+        "region": 2,
+        "id": 16,
+        "name": "baling"
+    },
+    {
+        "region": 2,
+        "id": 17,
+        "name": "padang serai"
+    },
+    {
+        "region": 2,
+        "id": 18,
+        "name": "kulim-bandar "
+    },
+    {
+        "region": 3,
+        "id": 19,
+        "name": "tumpat"
+    },
+    {
+        "region": 3,
+        "id": 20,
+        "name": "pengkalan chepa"
+    },
+    {
+        "region": 3,
+        "id": 21,
+        "name": "kota bharu"
+    },
+    {
+        "region": 3,
+        "id": 22,
+        "name": "pasir mas"
+    },
+    {
+        "region": 3,
+        "id": 23,
+        "name": "rantau panjang"
+    },
+    {
+        "region": 3,
+        "id": 24,
+        "name": "kubang kerian"
+    },
+    {
+        "region": 3,
+        "id": 25,
+        "name": "bachok"
+    },
+    {
+        "region": 3,
+        "id": 26,
+        "name": "ketereh"
+    },
+    {
+        "region": 3,
+        "id": 27,
+        "name": "tanah merah"
+    },
+    {
+        "region": 3,
+        "id": 28,
+        "name": "pasir puteh"
+    },
+    {
+        "region": 3,
+        "id": 29,
+        "name": "machang"
+    },
+    {
+        "region": 3,
+        "id": 30,
+        "name": "jeli"
+    },
+    {
+        "region": 3,
+        "id": 31,
+        "name": "kuala krai"
+    },
+    {
+        "region": 3,
+        "id": 32,
+        "name": "gua musang"
+    },
+    {
+        "region": 12,
+        "id": 33,
+        "name": "besut"
+    },
+    {
+        "region": 12,
+        "id": 34,
+        "name": "setiu"
+    },
+    {
+        "region": 12,
+        "id": 35,
+        "name": "kuala nerus"
+    },
+    {
+        "region": 12,
+        "id": 36,
+        "name": "kualaterengganu"
+    },
+    {
+        "region": 12,
+        "id": 37,
+        "name": "marang"
+    },
+    {
+        "region": 12,
+        "id": 38,
+        "name": "hulu terengganu"
+    },
+    {
+        "region": 12,
+        "id": 39,
+        "name": "dungun"
+    },
+    {
+        "region": 12,
+        "id": 40,
+        "name": "kemaman"
+    },
+    {
+        "region": 9,
+        "id": 41,
+        "name": "kepala batas"
+    },
+    {
+        "region": 9,
+        "id": 42,
+        "name": "tasek gelugor"
+    },
+    {
+        "region": 9,
+        "id": 43,
+        "name": "bagan"
+    },
+    {
+        "region": 9,
+        "id": 44,
+        "name": "permatang pauh"
+    },
+    {
+        "region": 9,
+        "id": 45,
+        "name": "bukit mertajam"
+    },
+    {
+        "region": 9,
+        "id": 47,
+        "name": "nibong tebal"
+    },
+    {
+        "region": 9,
+        "id": 48,
+        "name": "bukit bendera"
+    },
+    {
+        "region": 9,
+        "id": 49,
+        "name": "tanjong"
+    },
+    {
+        "region": 9,
+        "id": 50,
+        "name": "jelutong"
+    },
+    {
+        "region": 9,
+        "id": 51,
+        "name": "bukit gelugor"
+    },
+    {
+        "region": 9,
+        "id": 52,
+        "name": "bayan baru"
+    },
+    {
+        "region": 9,
+        "id": 53,
+        "name": "balik pulau"
+    },
+    {
+        "region": 7,
+        "id": 54,
+        "name": "gerik"
+    },
+    {
+        "region": 7,
+        "id": 55,
+        "name": "lenggong"
+    },
+    {
+        "region": 7,
+        "id": 56,
+        "name": "larut"
+    },
+    {
+        "region": 7,
+        "id": 57,
+        "name": "parit buntar"
+    },
+    {
+        "region": 7,
+        "id": 58,
+        "name": "bagan serai"
+    },
+    {
+        "region": 7,
+        "id": 59,
+        "name": "bukit gantang"
+    },
+    {
+        "region": 7,
+        "id": 60,
+        "name": "taiping"
+    },
+    {
+        "region": 7,
+        "id": 61,
+        "name": "padang rengas"
+    },
+    {
+        "region": 7,
+        "id": 62,
+        "name": "sungai siput"
+    },
+    {
+        "region": 7,
+        "id": 63,
+        "name": "tambun"
+    },
+    {
+        "region": 7,
+        "id": 64,
+        "name": "ipoh timor"
+    },
+    {
+        "region": 7,
+        "id": 65,
+        "name": "ipoh barat"
+    },
+    {
+        "region": 7,
+        "id": 66,
+        "name": "batu gajah"
+    },
+    {
+        "region": 7,
+        "id": 67,
+        "name": "kuala kangsar"
+    },
+    {
+        "region": 7,
+        "id": 68,
+        "name": "beruas"
+    },
+    {
+        "region": 7,
+        "id": 69,
+        "name": "parit"
+    },
+    {
+        "region": 7,
+        "id": 70,
+        "name": "kampar"
+    },
+    {
+        "region": 7,
+        "id": 71,
+        "name": "gopeng"
+    },
+    {
+        "region": 7,
+        "id": 72,
+        "name": "tapah"
+    },
+    {
+        "region": 7,
+        "id": 73,
+        "name": "pasir salak"
+    },
+    {
+        "region": 7,
+        "id": 74,
+        "name": "lumut"
+    },
+    {
+        "region": 7,
+        "id": 75,
+        "name": "bagan datok"
+    },
+    {
+        "region": 7,
+        "id": 76,
+        "name": "telok intan"
+    },
+    {
+        "region": 7,
+        "id": 77,
+        "name": "tanjong malim"
+    },
+    {
+        "region": 6,
+        "id": 78,
+        "name": "cameron highlands"
+    },
+    {
+        "region": 6,
+        "id": 79,
+        "name": "lipis"
+    },
+    {
+        "region": 6,
+        "id": 80,
+        "name": "raub"
+    },
+    {
+        "region": 6,
+        "id": 81,
+        "name": "jerantut"
+    },
+    {
+        "region": 6,
+        "id": 82,
+        "name": "indera mahkota"
+    },
+    {
+        "region": 6,
+        "id": 83,
+        "name": "kuantan"
+    },
+    {
+        "region": 6,
+        "id": 84,
+        "name": "paya besar"
+    },
+    {
+        "region": 6,
+        "id": 85,
+        "name": "pekan"
+    },
+    {
+        "region": 6,
+        "id": 86,
+        "name": "maran"
+    },
+    {
+        "region": 6,
+        "id": 87,
+        "name": "kuala krau"
+    },
+    {
+        "region": 6,
+        "id": 88,
+        "name": "temerloh"
+    },
+    {
+        "region": 6,
+        "id": 89,
+        "name": "bentong"
+    },
+    {
+        "region": 6,
+        "id": 90,
+        "name": "bera"
+    },
+    {
+        "region": 6,
+        "id": 91,
+        "name": "rompin"
+    },
+    {
+        "region": 11,
+        "id": 92,
+        "name": "sabak bernam"
+    },
+    {
+        "region": 11,
+        "id": 93,
+        "name": "sungai besar"
+    },
+    {
+        "region": 11,
+        "id": 94,
+        "name": "hulu selangor"
+    },
+    {
+        "region": 11,
+        "id": 95,
+        "name": "tanjong karang"
+    },
+    {
+        "region": 11,
+        "id": 96,
+        "name": "kuala selangor"
+    },
+    {
+        "region": 11,
+        "id": 97,
+        "name": "selayang"
+    },
+    {
+        "region": 11,
+        "id": 98,
+        "name": "gombak"
+    },
+    {
+        "region": 11,
+        "id": 99,
+        "name": "ampang"
+    },
+    {
+        "region": 11,
+        "id": 100,
+        "name": "pandan"
+    },
+    {
+        "region": 11,
+        "id": 101,
+        "name": "hulu langat"
+    },
+    {
+        "region": 11,
+        "id": 102,
+        "name": "serdang"
+    },
+    {
+        "region": 11,
+        "id": 103,
+        "name": "puchong"
+    },
+    {
+        "region": 11,
+        "id": 104,
+        "name": "kelana jaya"
+    },
+    {
+        "region": 11,
+        "id": 105,
+        "name": "petaling jaya selatan"
+    },
+    {
+        "region": 11,
+        "id": 106,
+        "name": "petaling jaya utara"
+    },
+    {
+        "region": 11,
+        "id": 107,
+        "name": "subang"
+    },
+    {
+        "region": 11,
+        "id": 108,
+        "name": "shah alam"
+    },
+    {
+        "region": 11,
+        "id": 109,
+        "name": "kapar"
+    },
+    {
+        "region": 11,
+        "id": 110,
+        "name": "klang"
+    },
+    {
+        "region": 11,
+        "id": 111,
+        "name": "kota raja"
+    },
+    {
+        "region": 11,
+        "id": 112,
+        "name": "kuala langat"
+    },
+    {
+        "region": 11,
+        "id": 113,
+        "name": "sepang"
+    },
+    {
+        "region": 13,
+        "id": 114,
+        "name": "kepong"
+    },
+    {
+        "region": 13,
+        "id": 115,
+        "name": "batu"
+    },
+    {
+        "region": 13,
+        "id": 116,
+        "name": "wangsa maju"
+    },
+    {
+        "region": 13,
+        "id": 117,
+        "name": "segambut"
+    },
+    {
+        "region": 13,
+        "id": 118,
+        "name": "setiawangsa"
+    },
+    {
+        "region": 13,
+        "id": 119,
+        "name": "titiwangsa"
+    },
+    {
+        "region": 13,
+        "id": 120,
+        "name": "bukit bintang"
+    },
+    {
+        "region": 13,
+        "id": 121,
+        "name": "lembah pantai"
+    },
+    {
+        "region": 13,
+        "id": 122,
+        "name": "seputeh"
+    },
+    {
+        "region": 13,
+        "id": 123,
+        "name": "cheras"
+    },
+    {
+        "region": 13,
+        "id": 124,
+        "name": "bandar tun razak"
+    },
+    {
+        "region": 13,
+        "id": 125,
+        "name": "putrajaya"
+    },
+    {
+        "region": 13,
+        "id": 126,
+        "name": "jelebu"
+    },
+    {
+        "region": 13,
+        "id": 127,
+        "name": "jempol"
+    },
+    {
+        "region": 13,
+        "id": 128,
+        "name": "seremban"
+    },
+    {
+        "region": 13,
+        "id": 129,
+        "name": "kuala pilah"
+    },
+    {
+        "region": 13,
+        "id": 130,
+        "name": "rasah"
+    },
+    {
+        "region": 13,
+        "id": 131,
+        "name": "rembau"
+    },
+    {
+        "region": 13,
+        "id": 132,
+        "name": "telok kemang"
+    },
+    {
+        "region": 13,
+        "id": 133,
+        "name": "tampin"
+    },
+    {
+        "region": 4,
+        "id": 134,
+        "name": "masjid tanah"
+    },
+    {
+        "region": 4,
+        "id": 135,
+        "name": "alor gajah"
+    },
+    {
+        "region": 4,
+        "id": 136,
+        "name": "tangga batu"
+    },
+    {
+        "region": 4,
+        "id": 137,
+        "name": "bukit katil"
+    },
+    {
+        "region": 4,
+        "id": 138,
+        "name": "kota melaka"
+    },
+    {
+        "region": 4,
+        "id": 139,
+        "name": "jasin"
+    },
+    {
+        "region": 1,
+        "id": 140,
+        "name": "segamat"
+    },
+    {
+        "region": 1,
+        "id": 141,
+        "name": "sekijang"
+    },
+    {
+        "region": 1,
+        "id": 142,
+        "name": "labis"
+    },
+    {
+        "region": 1,
+        "id": 143,
+        "name": "pagoh"
+    },
+    {
+        "region": 1,
+        "id": 144,
+        "name": "ledang"
+    },
+    {
+        "region": 1,
+        "id": 145,
+        "name": "bakri"
+    },
+    {
+        "region": 1,
+        "id": 146,
+        "name": "muar"
+    },
+    {
+        "region": 1,
+        "id": 147,
+        "name": "parit sulong"
+    },
+    {
+        "region": 1,
+        "id": 148,
+        "name": "ayer hitam"
+    },
+    {
+        "region": 1,
+        "id": 149,
+        "name": "sri gading"
+    },
+    {
+        "region": 1,
+        "id": 150,
+        "name": "batu pahat"
+    },
+    {
+        "region": 1,
+        "id": 151,
+        "name": "simpang renggam"
+    },
+    {
+        "region": 1,
+        "id": 152,
+        "name": "kluang"
+    },
+    {
+        "region": 1,
+        "id": 153,
+        "name": "sembrong"
+    },
+    {
+        "region": 1,
+        "id": 154,
+        "name": "mersing"
+    },
+    {
+        "region": 1,
+        "id": 155,
+        "name": "tenggara"
+    },
+    {
+        "region": 1,
+        "id": 156,
+        "name": "kota tinggi"
+    },
+    {
+        "region": 1,
+        "id": 157,
+        "name": "pengerang"
+    },
+    {
+        "region": 1,
+        "id": 158,
+        "name": "tebrau"
+    },
+    {
+        "region": 1,
+        "id": 159,
+        "name": "pasir gudang"
+    },
+    {
+        "region": 1,
+        "id": 160,
+        "name": "johor bahru"
+    },
+    {
+        "region": 1,
+        "id": 161,
+        "name": "pulai"
+    },
+    {
+        "region": 1,
+        "id": 162,
+        "name": "gelang patah"
+    },
+    {
+        "region": 1,
+        "id": 163,
+        "name": "kulai"
+    },
+    {
+        "region": 1,
+        "id": 164,
+        "name": "pontian"
+    },
+    {
+        "region": 1,
+        "id": 165,
+        "name": "tanjong piai"
+    },
+    {
+        "region": 1,
+        "id": 166,
+        "name": "labuan"
+    },
+    {
+        "region": 15,
+        "id": 167,
+        "name": "kudat"
+    },
+    {
+        "region": 15,
+        "id": 168,
+        "name": "kota marudu"
+    },
+    {
+        "region": 15,
+        "id": 169,
+        "name": "kota belud"
+    },
+    {
+        "region": 15,
+        "id": 170,
+        "name": "tuaran"
+    },
+    {
+        "region": 15,
+        "id": 171,
+        "name": "sepanggar"
+    },
+    {
+        "region": 15,
+        "id": 172,
+        "name": "kota kinabalu"
+    },
+    {
+        "region": 15,
+        "id": 173,
+        "name": "putatan"
+    },
+    {
+        "region": 15,
+        "id": 174,
+        "name": "penampang"
+    },
+    {
+        "region": 15,
+        "id": 175,
+        "name": "papar"
+    },
+    {
+        "region": 15,
+        "id": 176,
+        "name": "kimanis"
+    },
+    {
+        "region": 15,
+        "id": 177,
+        "name": "beaufort"
+    },
+    {
+        "region": 15,
+        "id": 178,
+        "name": "sipitang"
+    },
+    {
+        "region": 15,
+        "id": 179,
+        "name": "ranau"
+    },
+    {
+        "region": 15,
+        "id": 180,
+        "name": "keningau"
+    },
+    {
+        "region": 15,
+        "id": 181,
+        "name": "tenom"
+    },
+    {
+        "region": 15,
+        "id": 182,
+        "name": "pensiangan"
+    },
+    {
+        "region": 15,
+        "id": 183,
+        "name": "beluran"
+    },
+    {
+        "region": 15,
+        "id": 184,
+        "name": "libaran"
+    },
+    {
+        "region": 15,
+        "id": 185,
+        "name": "batu sapi"
+    },
+    {
+        "region": 15,
+        "id": 186,
+        "name": "sandakan"
+    },
+    {
+        "region": 15,
+        "id": 187,
+        "name": "kinabatangan"
+    },
+    {
+        "region": 15,
+        "id": 188,
+        "name": "silam"
+    },
+    {
+        "region": 15,
+        "id": 189,
+        "name": "semporna"
+    },
+    {
+        "region": 15,
+        "id": 190,
+        "name": "tawau"
+    },
+    {
+        "region": 15,
+        "id": 191,
+        "name": "kalabakan"
+    },
+    {
+        "region": 10,
+        "id": 192,
+        "name": "mas gading"
+    },
+    {
+        "region": 10,
+        "id": 193,
+        "name": "santubong"
+    },
+    {
+        "region": 10,
+        "id": 194,
+        "name": "petra jaya"
+    },
+    {
+        "region": 10,
+        "id": 195,
+        "name": "bandar kuching"
+    },
+    {
+        "region": 10,
+        "id": 196,
+        "name": "stampin"
+    },
+    {
+        "region": 10,
+        "id": 197,
+        "name": "kota samarahan"
+    },
+    {
+        "region": 10,
+        "id": 198,
+        "name": "mambong"
+    },
+    {
+        "region": 10,
+        "id": 199,
+        "name": "serian"
+    },
+    {
+        "region": 10,
+        "id": 200,
+        "name": "batang sadong"
+    },
+    {
+        "region": 10,
+        "id": 201,
+        "name": "batang lupar"
+    },
+    {
+        "region": 10,
+        "id": 202,
+        "name": "sri aman"
+    },
+    {
+        "region": 10,
+        "id": 203,
+        "name": "lubok antu"
+    },
+    {
+        "region": 10,
+        "id": 204,
+        "name": "betong"
+    },
+    {
+        "region": 10,
+        "id": 205,
+        "name": "saratok"
+    },
+    {
+        "region": 10,
+        "id": 206,
+        "name": "tanjong manis"
+    },
+    {
+        "region": 10,
+        "id": 207,
+        "name": "igan"
+    },
+    {
+        "region": 10,
+        "id": 208,
+        "name": "sarikei"
+    },
+    {
+        "region": 10,
+        "id": 209,
+        "name": "julau"
+    },
+    {
+        "region": 10,
+        "id": 210,
+        "name": "kanowit"
+    },
+    {
+        "region": 10,
+        "id": 211,
+        "name": "lanang"
+    },
+    {
+        "region": 10,
+        "id": 212,
+        "name": "sibu"
+    },
+    {
+        "region": 10,
+        "id": 213,
+        "name": "mukah"
+    },
+    {
+        "region": 10,
+        "id": 214,
+        "name": "selangau"
+    },
+    {
+        "region": 10,
+        "id": 215,
+        "name": "kapit"
+    },
+    {
+        "region": 10,
+        "id": 216,
+        "name": "hulu rajang"
+    },
+    {
+        "region": 10,
+        "id": 217,
+        "name": "bintulu"
+    },
+    {
+        "region": 10,
+        "id": 218,
+        "name": "sibuti"
+    },
+    {
+        "region": 10,
+        "id": 219,
+        "name": "miri"
+    },
+    {
+        "region": 10,
+        "id": 220,
+        "name": "baram"
+    },
+    {
+        "region": 10,
+        "id": 221,
+        "name": "limbang"
+    },
+    {
+        "region": 10,
+        "id": 222,
+        "name": "lawas"
+    }
+]
