@@ -1,0 +1,8 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# one:
+#   name: MyString
+#   region:
+#   iteration: 1
+#   valid_until: 2011-11-29
+#   previous:

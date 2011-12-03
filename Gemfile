@@ -1,12 +1,14 @@
 source 'http://rubygems.org'
 
+gem 'rake'
+
 gem 'rails', '3.1.1'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'uuidtools'
 
 # Gems used only for assets and not required
 # in production environments by default.

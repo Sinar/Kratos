@@ -1,0 +1,8 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# one:
+#   uuid: MyString
+#   coalition: MyString
+#   party: MyString
+#   joined_at: 2011-12-03
+#   parted_at: 2011-12-03

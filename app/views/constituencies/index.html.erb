@@ -1,0 +1,31 @@
+<h1>Listing constituencies</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Region</th>
+    <th>Iteration</th>
+    <th>Valid until</th>
+    <th>Previous</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @constituencies.each do |constituency| %>
+  <tr>
+    <td><%= constituency.name %></td>
+    <td><%= constituency.region %></td>
+    <td><%= constituency.iteration %></td>
+    <td><%= constituency.valid_until %></td>
+    <td><%= constituency.previous %></td>
+    <td><%= link_to 'Show', constituency %></td>
+    <td><%= link_to 'Edit', edit_constituency_path(constituency) %></td>
+    <td><%= link_to 'Destroy', constituency, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Constituency', new_constituency_path %>

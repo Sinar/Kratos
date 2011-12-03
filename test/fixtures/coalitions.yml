@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  code: ONE
+  name: First Party
+  name_in_malay: Parti Kesatu
+  founded_in: 2011
+
+two:
+  code: TWO
+  name: Second Party
+  name_in_malay: Parti Kedua
+  founded_in: 2011
