@@ -8,7 +8,7 @@ class CreateMembers < ActiveRecord::Migration
       t.string :twitter
       t.string :www
       t.string :phone
-      t.date :birthday
+      t.string :fax
       t.text :biography
       t.date :birthday
       t.date :deceased_at

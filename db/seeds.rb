@@ -7,7 +7,9 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 require 'json'
 
-# See: http://en.wikipedia.org/wiki/ISO_3166-2:MY
+# Geo
+
+## See: http://en.wikipedia.org/wiki/ISO_3166-2:MY
 regions = Region.create([
   { code: '01', name: 'Johor' },
   { code: '02', name: 'Kedah' },
@@ -27,12 +29,14 @@ regions = Region.create([
   { code: '16', name: 'Wilayah Persekutuan Putrajaya' },
 ])
 
+# Parties
+
 coalitions = Coalition.create([
   { code: 'BN', name: 'National Front', name_in_malay: 'Barisan Nasional', founded_in: 1973 },
   { code: 'PR', name: 'People\'s Pact', name_in_malay: 'Pakatan Rakyat', founded_in: 2008 }
 ])
 
-# See: http://en.wikipedia.org/wiki/List_of_political_parties_in_Malaysia
+## See: http://en.wikipedia.org/wiki/List_of_political_parties_in_Malaysia
 parties = Party.create([
   { code: 'UMNO', name: 'United Malays National Organisation', name_in_malay: 'Pertubuhan Kebangsaan Melayu Bersatu', founded_in: 1946 },
   { code: 'MCA', name: 'Malaysian Chinese Association', name_in_malay: 'Persatuan Cina Malaysia', founded_in: 1949 },
@@ -76,4 +80,24 @@ coalitionships = Coalitionship.create([
   { coalition_code: 'PR', party_code: 'PAS', joined_at: 2008 },
 ])
 
-# puts JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/members.json').read)
+# Members
+
+JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/members.json').read).each do |e|
+
+  region = regions.select { |v| v.name =~ Regexp.new(e['Negeri']) }.first
+  party = parties.select { |v| e['Parti'] =~ Regexp.new(v.code) }.first
+
+  if e['E-Mail'] && !e['E-Mail'].blank?
+    email = e['E-Mail'].scan(/\w\S+@\S+\w/).select { |v| !/parlimen\.gov\.my/.match(v) }.first
+  end
+  if e['No_Telefon'] && !e['No_Telefon'].blank?
+    phone = e['No_Telefon'][/^([\d \-]+)(?:,|\/)*/, 1].gsub(/[\-\s]/, '')
+  end
+  if e['No_Fax'] && !e['No_Fax'].blank?
+    fax = e['No_Fax'][/^([\d \-]+)(?:,|\/)*/, 1].gsub(/[\-\s]/, '')
+  end
+
+  m = Member.create({ name: e['Nama'], email: email, phone: phone, fax: fax })
+  PartyMembership.create({ member: m, party: party })
+
+end

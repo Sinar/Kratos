@@ -2,10 +2,10 @@ class PartyMembership < ActiveRecord::Base
 
   include UUIDHelper
 
-  # belongs_to :party
-  # belongs_to :member
+  belongs_to :member, :primary_key => 'uuid'
+  belongs_to :party, :primary_key => 'code'
 
-  # validates_length_of :joined_at, :in => 1900..2100, :allow_nil => false
-  # validates_length_of :parted_at, :in => 1900..2100, :allow_nil => true
+  validates_numericality_of :joined_at, :greater_than_or_equal_to => 1900, :less_than => 2100, :allow_nil => false
+  validates_numericality_of :parted_at, :greater_than_or_equal_to => 1900, :less_than => 2100, :allow_nil => true
 
 end
