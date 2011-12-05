@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "johor"
+    },
+    {
+        "id": 2,
+        "name": "kedah"
+    },
+    {
+        "id": 3,
+        "name": "kelantan"
+    },
+    {
+        "id": 4,
+        "name": "melaka"
+    },
+    {
+        "id": 5,
+        "name": "negeri sembilan"
+    },
+    {
+        "id": 6,
+        "name": "pahang"
+    },
+    {
+        "id": 7,
+        "name": "pulau pinang"
+    },
+    {
+        "id": 8,
+        "name": "perak"
+    },
+    {
+        "id": 9,
+        "name": "perlis"
+    },
+    {
+        "id": 10,
+        "name": "selangor"
+    },
+    {
+        "id": 11,
+        "name": "terengganu"
+    },
+    {
+        "id": 12,
+        "name": "sabah"
+    },
+    {
+        "id": 13,
+        "name": "sarawak"
+    },
+    {
+        "id": 14,
+        "name": "w.p. kuala lumpur"
+    },
+    {
+        "id": 15,
+        "name": "w.p. labuan"
+    },
+    {
+        "id": 16,
+        "name": "w.p. putrajaya"
+    }
+]

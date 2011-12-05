@@ -1,0 +1,3458 @@
+[
+    {
+        "region": 9,
+        "parliament": 1,
+        "id": 1,
+        "name": "titi tinggi"
+    },
+    {
+        "region": 9,
+        "parliament": 1,
+        "id": 2,
+        "name": "beseri"
+    },
+    {
+        "region": 9,
+        "parliament": 1,
+        "id": 3,
+        "name": "chuping"
+    },
+    {
+        "region": 9,
+        "parliament": 1,
+        "id": 4,
+        "name": "mata ayer"
+    },
+    {
+        "region": 9,
+        "parliament": 1,
+        "id": 5,
+        "name": "santan"
+    },
+    {
+        "region": 9,
+        "parliament": 2,
+        "id": 6,
+        "name": "bintong"
+    },
+    {
+        "region": 9,
+        "parliament": 2,
+        "id": 7,
+        "name": "sena"
+    },
+    {
+        "region": 9,
+        "parliament": 2,
+        "id": 8,
+        "name": "indera kayangan"
+    },
+    {
+        "region": 9,
+        "parliament": 2,
+        "id": 9,
+        "name": "kuala perlis"
+    },
+    {
+        "region": 9,
+        "parliament": 2,
+        "id": 10,
+        "name": "kayang"
+    },
+    {
+        "region": 9,
+        "parliament": 3,
+        "id": 11,
+        "name": "pauh"
+    },
+    {
+        "region": 9,
+        "parliament": 3,
+        "id": 12,
+        "name": "tambun tulang"
+    },
+    {
+        "region": 9,
+        "parliament": 3,
+        "id": 13,
+        "name": "guar sanji"
+    },
+    {
+        "region": 9,
+        "parliament": 3,
+        "id": 14,
+        "name": "simpang empat"
+    },
+    {
+        "region": 9,
+        "parliament": 3,
+        "id": 15,
+        "name": "sanglang"
+    },
+    {
+        "region": 2,
+        "parliament": 4,
+        "id": 1,
+        "name": "ayer hangat"
+    },
+    {
+        "region": 2,
+        "parliament": 4,
+        "id": 2,
+        "name": "kuah"
+    },
+    {
+        "region": 2,
+        "parliament": 5,
+        "id": 3,
+        "name": "kota siputeh"
+    },
+    {
+        "region": 2,
+        "parliament": 5,
+        "id": 4,
+        "name": "ayer hitam"
+    },
+    {
+        "region": 2,
+        "parliament": 6,
+        "id": 5,
+        "name": "bukit kayu hitam"
+    },
+    {
+        "region": 2,
+        "parliament": 6,
+        "id": 6,
+        "name": "jitra"
+    },
+    {
+        "region": 2,
+        "parliament": 7,
+        "id": 7,
+        "name": "kuala nerang"
+    },
+    {
+        "region": 2,
+        "parliament": 7,
+        "id": 8,
+        "name": "pedu"
+    },
+    {
+        "region": 2,
+        "parliament": 8,
+        "id": 9,
+        "name": "bukit lada"
+    },
+    {
+        "region": 2,
+        "parliament": 8,
+        "id": 10,
+        "name": "bukit pinang"
+    },
+    {
+        "region": 2,
+        "parliament": 8,
+        "id": 11,
+        "name": "derga"
+    },
+    {
+        "region": 2,
+        "parliament": 9,
+        "id": 12,
+        "name": "bakar bata"
+    },
+    {
+        "region": 2,
+        "parliament": 9,
+        "id": 13,
+        "name": "kota darul aman"
+    },
+    {
+        "region": 2,
+        "parliament": 9,
+        "id": 14,
+        "name": "alor mengkudu"
+    },
+    {
+        "region": 2,
+        "parliament": 10,
+        "id": 15,
+        "name": "anak bukit"
+    },
+    {
+        "region": 2,
+        "parliament": 10,
+        "id": 16,
+        "name": "kubang rotan"
+    },
+    {
+        "region": 2,
+        "parliament": 10,
+        "id": 17,
+        "name": "pengkalan kundor"
+    },
+    {
+        "region": 2,
+        "parliament": 11,
+        "id": 18,
+        "name": "tokai"
+    },
+    {
+        "region": 2,
+        "parliament": 11,
+        "id": 19,
+        "name": "sungai tiang"
+    },
+    {
+        "region": 2,
+        "parliament": 12,
+        "id": 20,
+        "name": "sungai limau"
+    },
+    {
+        "region": 2,
+        "parliament": 12,
+        "id": 21,
+        "name": "guar chempedak"
+    },
+    {
+        "region": 2,
+        "parliament": 12,
+        "id": 22,
+        "name": "gurun"
+    },
+    {
+        "region": 2,
+        "parliament": 13,
+        "id": 23,
+        "name": "belantek"
+    },
+    {
+        "region": 2,
+        "parliament": 13,
+        "id": 24,
+        "name": "jeneri"
+    },
+    {
+        "region": 2,
+        "parliament": 14,
+        "id": 25,
+        "name": "bukit selambau"
+    },
+    {
+        "region": 2,
+        "parliament": 14,
+        "id": 26,
+        "name": "tanjong dawai"
+    },
+    {
+        "region": 2,
+        "parliament": 15,
+        "id": 27,
+        "name": "pantai merdeka"
+    },
+    {
+        "region": 2,
+        "parliament": 15,
+        "id": 28,
+        "name": "bakar arang"
+    },
+    {
+        "region": 2,
+        "parliament": 15,
+        "id": 29,
+        "name": "sidam"
+    },
+    {
+        "region": 2,
+        "parliament": 16,
+        "id": 30,
+        "name": "bayu"
+    },
+    {
+        "region": 2,
+        "parliament": 16,
+        "id": 31,
+        "name": "kupang"
+    },
+    {
+        "region": 2,
+        "parliament": 16,
+        "id": 32,
+        "name": "kuala ketil"
+    },
+    {
+        "region": 2,
+        "parliament": 17,
+        "id": 33,
+        "name": "merbau pulas"
+    },
+    {
+        "region": 2,
+        "parliament": 17,
+        "id": 34,
+        "name": "lunas"
+    },
+    {
+        "region": 2,
+        "parliament": 18,
+        "id": 35,
+        "name": "kulim"
+    },
+    {
+        "region": 2,
+        "parliament": 18,
+        "id": 36,
+        "name": "bandar baharu"
+    },
+    {
+        "region": 3,
+        "parliament": 19,
+        "id": 1,
+        "name": "pengkalan kubor"
+    },
+    {
+        "region": 3,
+        "parliament": 19,
+        "id": 2,
+        "name": "kelaboran"
+    },
+    {
+        "region": 3,
+        "parliament": 19,
+        "id": 3,
+        "name": "pasir pekan"
+    },
+    {
+        "region": 3,
+        "parliament": 19,
+        "id": 4,
+        "name": "wakaf bharu"
+    },
+    {
+        "region": 3,
+        "parliament": 20,
+        "id": 5,
+        "name": "kijang"
+    },
+    {
+        "region": 3,
+        "parliament": 20,
+        "id": 6,
+        "name": "chempaka"
+    },
+    {
+        "region": 3,
+        "parliament": 20,
+        "id": 7,
+        "name": "panchor"
+    },
+    {
+        "region": 3,
+        "parliament": 21,
+        "id": 8,
+        "name": "tanjong mas"
+    },
+    {
+        "region": 3,
+        "parliament": 21,
+        "id": 9,
+        "name": "kota lama"
+    },
+    {
+        "region": 3,
+        "parliament": 21,
+        "id": 10,
+        "name": "bunut payong"
+    },
+    {
+        "region": 3,
+        "parliament": 22,
+        "id": 11,
+        "name": "tendong"
+    },
+    {
+        "region": 3,
+        "parliament": 22,
+        "id": 12,
+        "name": "pengkalan pasir"
+    },
+    {
+        "region": 3,
+        "parliament": 22,
+        "id": 13,
+        "name": "chetok"
+    },
+    {
+        "region": 3,
+        "parliament": 23,
+        "id": 14,
+        "name": "meranti"
+    },
+    {
+        "region": 3,
+        "parliament": 23,
+        "id": 15,
+        "name": "gual periok"
+    },
+    {
+        "region": 3,
+        "parliament": 23,
+        "id": 16,
+        "name": "bukit tuku"
+    },
+    {
+        "region": 3,
+        "parliament": 24,
+        "id": 17,
+        "name": "salor"
+    },
+    {
+        "region": 3,
+        "parliament": 24,
+        "id": 18,
+        "name": "pasir tumboh"
+    },
+    {
+        "region": 3,
+        "parliament": 24,
+        "id": 19,
+        "name": "demit"
+    },
+    {
+        "region": 3,
+        "parliament": 25,
+        "id": 20,
+        "name": "tawang"
+    },
+    {
+        "region": 3,
+        "parliament": 25,
+        "id": 21,
+        "name": "perupok"
+    },
+    {
+        "region": 3,
+        "parliament": 25,
+        "id": 22,
+        "name": "jelawat"
+    },
+    {
+        "region": 3,
+        "parliament": 26,
+        "id": 23,
+        "name": "melor"
+    },
+    {
+        "region": 3,
+        "parliament": 26,
+        "id": 24,
+        "name": "kadok"
+    },
+    {
+        "region": 3,
+        "parliament": 26,
+        "id": 25,
+        "name": "kok lanas"
+    },
+    {
+        "region": 3,
+        "parliament": 27,
+        "id": 26,
+        "name": "bukit panau"
+    },
+    {
+        "region": 3,
+        "parliament": 27,
+        "id": 27,
+        "name": "gual ipoh"
+    },
+    {
+        "region": 3,
+        "parliament": 27,
+        "id": 28,
+        "name": "kemahang"
+    },
+    {
+        "region": 3,
+        "parliament": 28,
+        "id": 29,
+        "name": "selising"
+    },
+    {
+        "region": 3,
+        "parliament": 28,
+        "id": 30,
+        "name": "limbongan"
+    },
+    {
+        "region": 3,
+        "parliament": 28,
+        "id": 31,
+        "name": "semerak"
+    },
+    {
+        "region": 3,
+        "parliament": 28,
+        "id": 32,
+        "name": "gaal"
+    },
+    {
+        "region": 3,
+        "parliament": 29,
+        "id": 33,
+        "name": "pulai chondong"
+    },
+    {
+        "region": 3,
+        "parliament": 29,
+        "id": 34,
+        "name": "temangan"
+    },
+    {
+        "region": 3,
+        "parliament": 29,
+        "id": 35,
+        "name": "kemuning"
+    },
+    {
+        "region": 3,
+        "parliament": 30,
+        "id": 36,
+        "name": "bukit bunga"
+    },
+    {
+        "region": 3,
+        "parliament": 30,
+        "id": 37,
+        "name": "air lanas"
+    },
+    {
+        "region": 3,
+        "parliament": 30,
+        "id": 38,
+        "name": "kuala balah"
+    },
+    {
+        "region": 3,
+        "parliament": 31,
+        "id": 39,
+        "name": "mengkebang"
+    },
+    {
+        "region": 3,
+        "parliament": 31,
+        "id": 40,
+        "name": "guchil"
+    },
+    {
+        "region": 3,
+        "parliament": 31,
+        "id": 41,
+        "name": "manek urai"
+    },
+    {
+        "region": 3,
+        "parliament": 31,
+        "id": 42,
+        "name": "dabong"
+    },
+    {
+        "region": 3,
+        "parliament": 32,
+        "id": 43,
+        "name": "nenggiri"
+    },
+    {
+        "region": 3,
+        "parliament": 32,
+        "id": 44,
+        "name": "paloh"
+    },
+    {
+        "region": 11,
+        "parliament": 33,
+        "id": 1,
+        "name": "kuala besut"
+    },
+    {
+        "region": 11,
+        "parliament": 33,
+        "id": 2,
+        "name": "kota putera"
+    },
+    {
+        "region": 11,
+        "parliament": 33,
+        "id": 3,
+        "name": "jertih"
+    },
+    {
+        "region": 11,
+        "parliament": 33,
+        "id": 4,
+        "name": "hulu besut"
+    },
+    {
+        "region": 11,
+        "parliament": 34,
+        "id": 5,
+        "name": "jabi"
+    },
+    {
+        "region": 11,
+        "parliament": 34,
+        "id": 6,
+        "name": "permaisuri"
+    },
+    {
+        "region": 11,
+        "parliament": 34,
+        "id": 7,
+        "name": "langkap"
+    },
+    {
+        "region": 11,
+        "parliament": 34,
+        "id": 8,
+        "name": "batu rakit"
+    },
+    {
+        "region": 11,
+        "parliament": 35,
+        "id": 9,
+        "name": "tepuh"
+    },
+    {
+        "region": 11,
+        "parliament": 35,
+        "id": 10,
+        "name": "teluk pasu"
+    },
+    {
+        "region": 11,
+        "parliament": 35,
+        "id": 11,
+        "name": "seberang takir"
+    },
+    {
+        "region": 11,
+        "parliament": 35,
+        "id": 12,
+        "name": "bukit tunggal"
+    },
+    {
+        "region": 11,
+        "parliament": 36,
+        "id": 13,
+        "name": "wakaf mempelam"
+    },
+    {
+        "region": 11,
+        "parliament": 36,
+        "id": 14,
+        "name": "bandar"
+    },
+    {
+        "region": 11,
+        "parliament": 36,
+        "id": 15,
+        "name": "ladang"
+    },
+    {
+        "region": 11,
+        "parliament": 36,
+        "id": 16,
+        "name": "batu buruk"
+    },
+    {
+        "region": 11,
+        "parliament": 37,
+        "id": 17,
+        "name": "alur limbat"
+    },
+    {
+        "region": 11,
+        "parliament": 37,
+        "id": 18,
+        "name": "bukit payung"
+    },
+    {
+        "region": 11,
+        "parliament": 37,
+        "id": 19,
+        "name": "ru rendang"
+    },
+    {
+        "region": 11,
+        "parliament": 37,
+        "id": 20,
+        "name": "pengkalan berangan"
+    },
+    {
+        "region": 11,
+        "parliament": 38,
+        "id": 21,
+        "name": "telemung"
+    },
+    {
+        "region": 11,
+        "parliament": 38,
+        "id": 22,
+        "name": "manir"
+    },
+    {
+        "region": 11,
+        "parliament": 38,
+        "id": 23,
+        "name": "kuala berang"
+    },
+    {
+        "region": 11,
+        "parliament": 38,
+        "id": 24,
+        "name": "ajil"
+    },
+    {
+        "region": 11,
+        "parliament": 39,
+        "id": 25,
+        "name": "bukit besi"
+    },
+    {
+        "region": 11,
+        "parliament": 39,
+        "id": 26,
+        "name": "rantau abang"
+    },
+    {
+        "region": 11,
+        "parliament": 39,
+        "id": 27,
+        "name": "sura"
+    },
+    {
+        "region": 11,
+        "parliament": 39,
+        "id": 28,
+        "name": "paka"
+    },
+    {
+        "region": 11,
+        "parliament": 40,
+        "id": 29,
+        "name": "kemasik"
+    },
+    {
+        "region": 11,
+        "parliament": 40,
+        "id": 30,
+        "name": "kijal"
+    },
+    {
+        "region": 11,
+        "parliament": 40,
+        "id": 31,
+        "name": "cukai"
+    },
+    {
+        "region": 11,
+        "parliament": 40,
+        "id": 32,
+        "name": "air putih"
+    },
+    {
+        "region": 7,
+        "parliament": 41,
+        "id": 1,
+        "name": "penaga"
+    },
+    {
+        "region": 7,
+        "parliament": 41,
+        "id": 2,
+        "name": "bertam"
+    },
+    {
+        "region": 7,
+        "parliament": 41,
+        "id": 3,
+        "name": "pinang tunggal"
+    },
+    {
+        "region": 7,
+        "parliament": 42,
+        "id": 4,
+        "name": "permatang berangan"
+    },
+    {
+        "region": 7,
+        "parliament": 42,
+        "id": 5,
+        "name": "sungai dua"
+    },
+    {
+        "region": 7,
+        "parliament": 42,
+        "id": 6,
+        "name": "telok ayer tawar"
+    },
+    {
+        "region": 7,
+        "parliament": 43,
+        "id": 7,
+        "name": "sungai puyu"
+    },
+    {
+        "region": 7,
+        "parliament": 43,
+        "id": 8,
+        "name": "bagan jermal"
+    },
+    {
+        "region": 7,
+        "parliament": 43,
+        "id": 9,
+        "name": "bagan dalam"
+    },
+    {
+        "region": 7,
+        "parliament": 44,
+        "id": 10,
+        "name": "seberang jaya"
+    },
+    {
+        "region": 7,
+        "parliament": 44,
+        "id": 11,
+        "name": "permatang pasir"
+    },
+    {
+        "region": 7,
+        "parliament": 44,
+        "id": 12,
+        "name": "penanti"
+    },
+    {
+        "region": 7,
+        "parliament": 45,
+        "id": 13,
+        "name": "berapit"
+    },
+    {
+        "region": 7,
+        "parliament": 45,
+        "id": 14,
+        "name": "machang bubuk"
+    },
+    {
+        "region": 7,
+        "parliament": 45,
+        "id": 15,
+        "name": "padang lalang"
+    },
+    {
+        "region": 7,
+        "parliament": 45,
+        "id": 46,
+        "name": "batu kawan"
+    },
+    {
+        "region": 7,
+        "parliament": 45,
+        "id": 16,
+        "name": "perai"
+    },
+    {
+        "region": 7,
+        "parliament": 45,
+        "id": 17,
+        "name": "bukit tengah"
+    },
+    {
+        "region": 7,
+        "parliament": 45,
+        "id": 18,
+        "name": "bukit tambun"
+    },
+    {
+        "region": 7,
+        "parliament": 47,
+        "id": 19,
+        "name": "jawi"
+    },
+    {
+        "region": 7,
+        "parliament": 47,
+        "id": 20,
+        "name": "sungai bakap"
+    },
+    {
+        "region": 7,
+        "parliament": 47,
+        "id": 21,
+        "name": "sungai acheh"
+    },
+    {
+        "region": 7,
+        "parliament": 48,
+        "id": 22,
+        "name": "tanjong bunga"
+    },
+    {
+        "region": 7,
+        "parliament": 48,
+        "id": 23,
+        "name": "air putih"
+    },
+    {
+        "region": 7,
+        "parliament": 48,
+        "id": 24,
+        "name": "kebun bunga"
+    },
+    {
+        "region": 7,
+        "parliament": 48,
+        "id": 25,
+        "name": "pulau tikus"
+    },
+    {
+        "region": 7,
+        "parliament": 49,
+        "id": 26,
+        "name": "padang kota"
+    },
+    {
+        "region": 7,
+        "parliament": 49,
+        "id": 27,
+        "name": "pengkalan kota"
+    },
+    {
+        "region": 7,
+        "parliament": 49,
+        "id": 28,
+        "name": "komtar"
+    },
+    {
+        "region": 7,
+        "parliament": 50,
+        "id": 29,
+        "name": "datok keramat"
+    },
+    {
+        "region": 7,
+        "parliament": 50,
+        "id": 30,
+        "name": "sungai pinang"
+    },
+    {
+        "region": 7,
+        "parliament": 50,
+        "id": 31,
+        "name": "batu lancang"
+    },
+    {
+        "region": 7,
+        "parliament": 51,
+        "id": 32,
+        "name": "seri delima"
+    },
+    {
+        "region": 7,
+        "parliament": 51,
+        "id": 33,
+        "name": "air itam"
+    },
+    {
+        "region": 7,
+        "parliament": 51,
+        "id": 34,
+        "name": "paya terubong"
+    },
+    {
+        "region": 7,
+        "parliament": 52,
+        "id": 35,
+        "name": "batu uban"
+    },
+    {
+        "region": 7,
+        "parliament": 52,
+        "id": 36,
+        "name": "pantai jerejak"
+    },
+    {
+        "region": 7,
+        "parliament": 52,
+        "id": 37,
+        "name": "batu maung"
+    },
+    {
+        "region": 7,
+        "parliament": 53,
+        "id": 38,
+        "name": "bayan lepas"
+    },
+    {
+        "region": 7,
+        "parliament": 53,
+        "id": 39,
+        "name": "pulau betong"
+    },
+    {
+        "region": 7,
+        "parliament": 53,
+        "id": 40,
+        "name": "telok bahang"
+    },
+    {
+        "region": 8,
+        "parliament": 54,
+        "id": 1,
+        "name": "pengkalan hulu"
+    },
+    {
+        "region": 8,
+        "parliament": 54,
+        "id": 2,
+        "name": "temengor"
+    },
+    {
+        "region": 8,
+        "parliament": 55,
+        "id": 3,
+        "name": "kenering"
+    },
+    {
+        "region": 8,
+        "parliament": 55,
+        "id": 4,
+        "name": "kota tampan"
+    },
+    {
+        "region": 8,
+        "parliament": 56,
+        "id": 5,
+        "name": "selama"
+    },
+    {
+        "region": 8,
+        "parliament": 56,
+        "id": 6,
+        "name": "kubu gajah"
+    },
+    {
+        "region": 8,
+        "parliament": 56,
+        "id": 7,
+        "name": "batu kurau"
+    },
+    {
+        "region": 8,
+        "parliament": 57,
+        "id": 8,
+        "name": "titi serong"
+    },
+    {
+        "region": 8,
+        "parliament": 57,
+        "id": 9,
+        "name": "kuala kurau"
+    },
+    {
+        "region": 8,
+        "parliament": 58,
+        "id": 10,
+        "name": "alor pongsu"
+    },
+    {
+        "region": 8,
+        "parliament": 58,
+        "id": 11,
+        "name": "gunong semanggol"
+    },
+    {
+        "region": 8,
+        "parliament": 58,
+        "id": 12,
+        "name": "selinsing"
+    },
+    {
+        "region": 8,
+        "parliament": 59,
+        "id": 13,
+        "name": "kuala sapetang"
+    },
+    {
+        "region": 8,
+        "parliament": 59,
+        "id": 14,
+        "name": "changkat jering"
+    },
+    {
+        "region": 8,
+        "parliament": 59,
+        "id": 15,
+        "name": "trong"
+    },
+    {
+        "region": 8,
+        "parliament": 60,
+        "id": 16,
+        "name": "kamunting"
+    },
+    {
+        "region": 8,
+        "parliament": 60,
+        "id": 17,
+        "name": "pokok assam"
+    },
+    {
+        "region": 8,
+        "parliament": 60,
+        "id": 18,
+        "name": "aulong"
+    },
+    {
+        "region": 8,
+        "parliament": 61,
+        "id": 19,
+        "name": "chenderoh"
+    },
+    {
+        "region": 8,
+        "parliament": 61,
+        "id": 20,
+        "name": "lubok merbau"
+    },
+    {
+        "region": 8,
+        "parliament": 62,
+        "id": 21,
+        "name": "lintang"
+    },
+    {
+        "region": 8,
+        "parliament": 62,
+        "id": 22,
+        "name": "jalong"
+    },
+    {
+        "region": 8,
+        "parliament": 63,
+        "id": 23,
+        "name": "manjoi"
+    },
+    {
+        "region": 8,
+        "parliament": 63,
+        "id": 24,
+        "name": "hulu kinta"
+    },
+    {
+        "region": 8,
+        "parliament": 64,
+        "id": 25,
+        "name": "canning"
+    },
+    {
+        "region": 8,
+        "parliament": 64,
+        "id": 26,
+        "name": "tebing tinggi"
+    },
+    {
+        "region": 8,
+        "parliament": 64,
+        "id": 27,
+        "name": "pasir pinji"
+    },
+    {
+        "region": 8,
+        "parliament": 65,
+        "id": 28,
+        "name": "bercham"
+    },
+    {
+        "region": 8,
+        "parliament": 65,
+        "id": 29,
+        "name": "kepayang"
+    },
+    {
+        "region": 8,
+        "parliament": 65,
+        "id": 30,
+        "name": "buntong"
+    },
+    {
+        "region": 8,
+        "parliament": 66,
+        "id": 31,
+        "name": "jelapang"
+    },
+    {
+        "region": 8,
+        "parliament": 66,
+        "id": 32,
+        "name": "menglembu"
+    },
+    {
+        "region": 8,
+        "parliament": 66,
+        "id": 33,
+        "name": "tronoh"
+    },
+    {
+        "region": 8,
+        "parliament": 67,
+        "id": 34,
+        "name": "bukit chandan"
+    },
+    {
+        "region": 8,
+        "parliament": 67,
+        "id": 35,
+        "name": "manong"
+    },
+    {
+        "region": 8,
+        "parliament": 68,
+        "id": 36,
+        "name": "pengkalan baharu"
+    },
+    {
+        "region": 8,
+        "parliament": 68,
+        "id": 37,
+        "name": "pantai remis"
+    },
+    {
+        "region": 8,
+        "parliament": 69,
+        "id": 38,
+        "name": "belanja"
+    },
+    {
+        "region": 8,
+        "parliament": 69,
+        "id": 39,
+        "name": "bota"
+    },
+    {
+        "region": 8,
+        "parliament": 70,
+        "id": 40,
+        "name": "malim nawar"
+    },
+    {
+        "region": 8,
+        "parliament": 70,
+        "id": 41,
+        "name": "keranji"
+    },
+    {
+        "region": 8,
+        "parliament": 70,
+        "id": 42,
+        "name": "tualang sekah"
+    },
+    {
+        "region": 8,
+        "parliament": 71,
+        "id": 43,
+        "name": "sungai rapat"
+    },
+    {
+        "region": 8,
+        "parliament": 71,
+        "id": 44,
+        "name": "simpang pulai"
+    },
+    {
+        "region": 8,
+        "parliament": 71,
+        "id": 45,
+        "name": "teja"
+    },
+    {
+        "region": 8,
+        "parliament": 72,
+        "id": 46,
+        "name": "chenderiang"
+    },
+    {
+        "region": 8,
+        "parliament": 72,
+        "id": 47,
+        "name": "ayer kuning"
+    },
+    {
+        "region": 8,
+        "parliament": 73,
+        "id": 48,
+        "name": "sungai manik"
+    },
+    {
+        "region": 8,
+        "parliament": 73,
+        "id": 49,
+        "name": "kampong gajah"
+    },
+    {
+        "region": 8,
+        "parliament": 74,
+        "id": 50,
+        "name": "sitiawan"
+    },
+    {
+        "region": 8,
+        "parliament": 74,
+        "id": 51,
+        "name": "pasir panjang"
+    },
+    {
+        "region": 8,
+        "parliament": 74,
+        "id": 52,
+        "name": "pangkor"
+    },
+    {
+        "region": 8,
+        "parliament": 75,
+        "id": 53,
+        "name": "rungkup "
+    },
+    {
+        "region": 8,
+        "parliament": 75,
+        "id": 54,
+        "name": "hutan melintang"
+    },
+    {
+        "region": 8,
+        "parliament": 76,
+        "id": 55,
+        "name": "pasir bedamar"
+    },
+    {
+        "region": 8,
+        "parliament": 76,
+        "id": 56,
+        "name": "changkat jong"
+    },
+    {
+        "region": 8,
+        "parliament": 77,
+        "id": 57,
+        "name": "sungkai"
+    },
+    {
+        "region": 8,
+        "parliament": 77,
+        "id": 58,
+        "name": "slim"
+    },
+    {
+        "region": 8,
+        "parliament": 77,
+        "id": 59,
+        "name": "behrang"
+    },
+    {
+        "region": 6,
+        "parliament": 78,
+        "id": 1,
+        "name": "tanah rata"
+    },
+    {
+        "region": 6,
+        "parliament": 78,
+        "id": 2,
+        "name": "jelai"
+    },
+    {
+        "region": 6,
+        "parliament": 79,
+        "id": 3,
+        "name": "padang tengku"
+    },
+    {
+        "region": 6,
+        "parliament": 79,
+        "id": 4,
+        "name": "ceka"
+    },
+    {
+        "region": 6,
+        "parliament": 79,
+        "id": 5,
+        "name": "benta"
+    },
+    {
+        "region": 6,
+        "parliament": 80,
+        "id": 6,
+        "name": "batu talam"
+    },
+    {
+        "region": 6,
+        "parliament": 80,
+        "id": 7,
+        "name": "teras"
+    },
+    {
+        "region": 6,
+        "parliament": 80,
+        "id": 8,
+        "name": "dong"
+    },
+    {
+        "region": 6,
+        "parliament": 81,
+        "id": 9,
+        "name": "tahan"
+    },
+    {
+        "region": 6,
+        "parliament": 81,
+        "id": 10,
+        "name": "damak"
+    },
+    {
+        "region": 6,
+        "parliament": 81,
+        "id": 11,
+        "name": "pulau tawar"
+    },
+    {
+        "region": 6,
+        "parliament": 82,
+        "id": 12,
+        "name": "beserah"
+    },
+    {
+        "region": 6,
+        "parliament": 82,
+        "id": 13,
+        "name": "semambu"
+    },
+    {
+        "region": 6,
+        "parliament": 83,
+        "id": 14,
+        "name": "teruntum"
+    },
+    {
+        "region": 6,
+        "parliament": 83,
+        "id": 15,
+        "name": "tanjung lumpur"
+    },
+    {
+        "region": 6,
+        "parliament": 83,
+        "id": 16,
+        "name": "inderapura"
+    },
+    {
+        "region": 6,
+        "parliament": 84,
+        "id": 17,
+        "name": "sungai lembing"
+    },
+    {
+        "region": 6,
+        "parliament": 84,
+        "id": 18,
+        "name": "lepar"
+    },
+    {
+        "region": 6,
+        "parliament": 84,
+        "id": 19,
+        "name": "panching"
+    },
+    {
+        "region": 6,
+        "parliament": 85,
+        "id": 20,
+        "name": "pulau manis"
+    },
+    {
+        "region": 6,
+        "parliament": 85,
+        "id": 21,
+        "name": "peramu jaya"
+    },
+    {
+        "region": 6,
+        "parliament": 85,
+        "id": 22,
+        "name": "bebar"
+    },
+    {
+        "region": 6,
+        "parliament": 85,
+        "id": 23,
+        "name": "chini"
+    },
+    {
+        "region": 6,
+        "parliament": 86,
+        "id": 24,
+        "name": "luit"
+    },
+    {
+        "region": 6,
+        "parliament": 86,
+        "id": 25,
+        "name": "kuala sentul"
+    },
+    {
+        "region": 6,
+        "parliament": 86,
+        "id": 26,
+        "name": "chenor"
+    },
+    {
+        "region": 6,
+        "parliament": 87,
+        "id": 27,
+        "name": "jenderak"
+    },
+    {
+        "region": 6,
+        "parliament": 87,
+        "id": 28,
+        "name": "kerdau"
+    },
+    {
+        "region": 6,
+        "parliament": 87,
+        "id": 29,
+        "name": "jengka"
+    },
+    {
+        "region": 6,
+        "parliament": 88,
+        "id": 30,
+        "name": "mentakab"
+    },
+    {
+        "region": 6,
+        "parliament": 88,
+        "id": 31,
+        "name": "lanchang"
+    },
+    {
+        "region": 6,
+        "parliament": 88,
+        "id": 32,
+        "name": "kuala semantan"
+    },
+    {
+        "region": 6,
+        "parliament": 89,
+        "id": 33,
+        "name": "bilut"
+    },
+    {
+        "region": 6,
+        "parliament": 89,
+        "id": 34,
+        "name": "ketari"
+    },
+    {
+        "region": 6,
+        "parliament": 89,
+        "id": 35,
+        "name": "sabai"
+    },
+    {
+        "region": 6,
+        "parliament": 89,
+        "id": 36,
+        "name": "pelangai"
+    },
+    {
+        "region": 6,
+        "parliament": 90,
+        "id": 37,
+        "name": "guai"
+    },
+    {
+        "region": 6,
+        "parliament": 90,
+        "id": 38,
+        "name": "triang"
+    },
+    {
+        "region": 6,
+        "parliament": 90,
+        "id": 39,
+        "name": "kemayan"
+    },
+    {
+        "region": 6,
+        "parliament": 91,
+        "id": 40,
+        "name": "bukit ibam"
+    },
+    {
+        "region": 6,
+        "parliament": 91,
+        "id": 41,
+        "name": "muadzam shah"
+    },
+    {
+        "region": 6,
+        "parliament": 91,
+        "id": 42,
+        "name": "tioman"
+    },
+    {
+        "region": 10,
+        "parliament": 92,
+        "id": 1,
+        "name": "sungai air tawar"
+    },
+    {
+        "region": 10,
+        "parliament": 92,
+        "id": 2,
+        "name": "sabak"
+    },
+    {
+        "region": 10,
+        "parliament": 93,
+        "id": 3,
+        "name": "sungai panjang"
+    },
+    {
+        "region": 10,
+        "parliament": 93,
+        "id": 4,
+        "name": "sekinchan"
+    },
+    {
+        "region": 10,
+        "parliament": 94,
+        "id": 5,
+        "name": "hulu bernam"
+    },
+    {
+        "region": 10,
+        "parliament": 94,
+        "id": 6,
+        "name": "kuala kubu baharu"
+    },
+    {
+        "region": 10,
+        "parliament": 94,
+        "id": 7,
+        "name": "batang kali"
+    },
+    {
+        "region": 10,
+        "parliament": 95,
+        "id": 8,
+        "name": "sungai burong"
+    },
+    {
+        "region": 10,
+        "parliament": 95,
+        "id": 9,
+        "name": "permatang"
+    },
+    {
+        "region": 10,
+        "parliament": 96,
+        "id": 10,
+        "name": "bukit melawati"
+    },
+    {
+        "region": 10,
+        "parliament": 96,
+        "id": 11,
+        "name": "ijok"
+    },
+    {
+        "region": 10,
+        "parliament": 96,
+        "id": 12,
+        "name": "jeram"
+    },
+    {
+        "region": 10,
+        "parliament": 97,
+        "id": 13,
+        "name": "kuang "
+    },
+    {
+        "region": 10,
+        "parliament": 97,
+        "id": 14,
+        "name": "rawang"
+    },
+    {
+        "region": 10,
+        "parliament": 97,
+        "id": 15,
+        "name": "taman templer"
+    },
+    {
+        "region": 10,
+        "parliament": 98,
+        "id": 16,
+        "name": "batu caves"
+    },
+    {
+        "region": 10,
+        "parliament": 98,
+        "id": 17,
+        "name": "gombak setia"
+    },
+    {
+        "region": 10,
+        "parliament": 98,
+        "id": 18,
+        "name": "hulu kelang"
+    },
+    {
+        "region": 10,
+        "parliament": 99,
+        "id": 19,
+        "name": "bukit antarabangsa"
+    },
+    {
+        "region": 10,
+        "parliament": 99,
+        "id": 20,
+        "name": "lembah jaya"
+    },
+    {
+        "region": 10,
+        "parliament": 100,
+        "id": 21,
+        "name": "chempaka"
+    },
+    {
+        "region": 10,
+        "parliament": 100,
+        "id": 22,
+        "name": "teratai"
+    },
+    {
+        "region": 10,
+        "parliament": 101,
+        "id": 23,
+        "name": "dusun tua"
+    },
+    {
+        "region": 10,
+        "parliament": 101,
+        "id": 24,
+        "name": "semenyih"
+    },
+    {
+        "region": 10,
+        "parliament": 101,
+        "id": 25,
+        "name": "kajang"
+    },
+    {
+        "region": 10,
+        "parliament": 102,
+        "id": 26,
+        "name": "bangi"
+    },
+    {
+        "region": 10,
+        "parliament": 102,
+        "id": 27,
+        "name": "balakong"
+    },
+    {
+        "region": 10,
+        "parliament": 102,
+        "id": 28,
+        "name": "seri kembangan"
+    },
+    {
+        "region": 10,
+        "parliament": 103,
+        "id": 29,
+        "name": "seri serdang"
+    },
+    {
+        "region": 10,
+        "parliament": 103,
+        "id": 30,
+        "name": "kinrara"
+    },
+    {
+        "region": 10,
+        "parliament": 104,
+        "id": 31,
+        "name": "subang jaya"
+    },
+    {
+        "region": 10,
+        "parliament": 104,
+        "id": 32,
+        "name": "seri setia"
+    },
+    {
+        "region": 10,
+        "parliament": 105,
+        "id": 33,
+        "name": "taman medan"
+    },
+    {
+        "region": 10,
+        "parliament": 105,
+        "id": 34,
+        "name": "bukit gasing"
+    },
+    {
+        "region": 10,
+        "parliament": 106,
+        "id": 35,
+        "name": "kampung tunku"
+    },
+    {
+        "region": 10,
+        "parliament": 106,
+        "id": 36,
+        "name": "damansara utama"
+    },
+    {
+        "region": 10,
+        "parliament": 107,
+        "id": 37,
+        "name": "bukit lanjan"
+    },
+    {
+        "region": 10,
+        "parliament": 107,
+        "id": 38,
+        "name": "paya jaras"
+    },
+    {
+        "region": 10,
+        "parliament": 107,
+        "id": 39,
+        "name": "kota damansara"
+    },
+    {
+        "region": 10,
+        "parliament": 108,
+        "id": 40,
+        "name": "kota anggerik"
+    },
+    {
+        "region": 10,
+        "parliament": 108,
+        "id": 41,
+        "name": "batu tiga"
+    },
+    {
+        "region": 10,
+        "parliament": 109,
+        "id": 42,
+        "name": "meru"
+    },
+    {
+        "region": 10,
+        "parliament": 109,
+        "id": 43,
+        "name": "sementa"
+    },
+    {
+        "region": 10,
+        "parliament": 109,
+        "id": 44,
+        "name": "sungai pinang"
+    },
+    {
+        "region": 10,
+        "parliament": 109,
+        "id": 45,
+        "name": "selat klang"
+    },
+    {
+        "region": 10,
+        "parliament": 110,
+        "id": 46,
+        "name": "pelabuhan klang"
+    },
+    {
+        "region": 10,
+        "parliament": 110,
+        "id": 47,
+        "name": "pandamaran"
+    },
+    {
+        "region": 10,
+        "parliament": 110,
+        "id": 48,
+        "name": "kota alam shah"
+    },
+    {
+        "region": 10,
+        "parliament": 111,
+        "id": 49,
+        "name": "seri andalas"
+    },
+    {
+        "region": 10,
+        "parliament": 111,
+        "id": 50,
+        "name": "sri muda"
+    },
+    {
+        "region": 10,
+        "parliament": 112,
+        "id": 51,
+        "name": "sijangkang"
+    },
+    {
+        "region": 10,
+        "parliament": 112,
+        "id": 52,
+        "name": "teluk datuk"
+    },
+    {
+        "region": 10,
+        "parliament": 112,
+        "id": 53,
+        "name": "morib"
+    },
+    {
+        "region": 10,
+        "parliament": 113,
+        "id": 54,
+        "name": "tanjong sepat"
+    },
+    {
+        "region": 10,
+        "parliament": 113,
+        "id": 55,
+        "name": "dengkil"
+    },
+    {
+        "region": 10,
+        "parliament": 113,
+        "id": 56,
+        "name": "sungai pelek"
+    },
+    {
+        "region": 14,
+        "parliament": 126,
+        "id": 1,
+        "name": "chennah"
+    },
+    {
+        "region": 14,
+        "parliament": 126,
+        "id": 2,
+        "name": "pertang"
+    },
+    {
+        "region": 14,
+        "parliament": 126,
+        "id": 3,
+        "name": "sungai lui"
+    },
+    {
+        "region": 14,
+        "parliament": 126,
+        "id": 4,
+        "name": "klawang"
+    },
+    {
+        "region": 14,
+        "parliament": 127,
+        "id": 5,
+        "name": "serting"
+    },
+    {
+        "region": 14,
+        "parliament": 127,
+        "id": 6,
+        "name": "palong"
+    },
+    {
+        "region": 14,
+        "parliament": 127,
+        "id": 7,
+        "name": "jeram padang"
+    },
+    {
+        "region": 14,
+        "parliament": 127,
+        "id": 8,
+        "name": "bahau"
+    },
+    {
+        "region": 14,
+        "parliament": 128,
+        "id": 9,
+        "name": "lenggeng"
+    },
+    {
+        "region": 14,
+        "parliament": 128,
+        "id": 10,
+        "name": "nilai"
+    },
+    {
+        "region": 14,
+        "parliament": 128,
+        "id": 11,
+        "name": "lobak"
+    },
+    {
+        "region": 14,
+        "parliament": 128,
+        "id": 12,
+        "name": "temiang"
+    },
+    {
+        "region": 14,
+        "parliament": 128,
+        "id": 13,
+        "name": "sikamat"
+    },
+    {
+        "region": 14,
+        "parliament": 128,
+        "id": 14,
+        "name": "ampangan"
+    },
+    {
+        "region": 14,
+        "parliament": 129,
+        "id": 15,
+        "name": "juasseh"
+    },
+    {
+        "region": 14,
+        "parliament": 129,
+        "id": 16,
+        "name": "seri menanti"
+    },
+    {
+        "region": 14,
+        "parliament": 129,
+        "id": 17,
+        "name": "senaling"
+    },
+    {
+        "region": 14,
+        "parliament": 129,
+        "id": 18,
+        "name": "pilah"
+    },
+    {
+        "region": 14,
+        "parliament": 129,
+        "id": 19,
+        "name": "johol"
+    },
+    {
+        "region": 14,
+        "parliament": 130,
+        "id": 20,
+        "name": "labu"
+    },
+    {
+        "region": 14,
+        "parliament": 130,
+        "id": 21,
+        "name": "bukit kepayang"
+    },
+    {
+        "region": 14,
+        "parliament": 130,
+        "id": 22,
+        "name": "rahang"
+    },
+    {
+        "region": 14,
+        "parliament": 130,
+        "id": 23,
+        "name": "mambau"
+    },
+    {
+        "region": 14,
+        "parliament": 130,
+        "id": 24,
+        "name": "senawang"
+    },
+    {
+        "region": 14,
+        "parliament": 131,
+        "id": 25,
+        "name": "paroi"
+    },
+    {
+        "region": 14,
+        "parliament": 131,
+        "id": 26,
+        "name": "chembong"
+    },
+    {
+        "region": 14,
+        "parliament": 131,
+        "id": 27,
+        "name": "rantau"
+    },
+    {
+        "region": 14,
+        "parliament": 131,
+        "id": 28,
+        "name": "kota"
+    },
+    {
+        "region": 14,
+        "parliament": 132,
+        "id": 29,
+        "name": "chuah"
+    },
+    {
+        "region": 14,
+        "parliament": 132,
+        "id": 30,
+        "name": "lukut"
+    },
+    {
+        "region": 14,
+        "parliament": 132,
+        "id": 31,
+        "name": "bagan pinang"
+    },
+    {
+        "region": 14,
+        "parliament": 132,
+        "id": 32,
+        "name": "linggi"
+    },
+    {
+        "region": 14,
+        "parliament": 132,
+        "id": 33,
+        "name": "port dickson"
+    },
+    {
+        "region": 14,
+        "parliament": 133,
+        "id": 34,
+        "name": "gemas"
+    },
+    {
+        "region": 14,
+        "parliament": 133,
+        "id": 35,
+        "name": "gemencheh"
+    },
+    {
+        "region": 14,
+        "parliament": 133,
+        "id": 36,
+        "name": "repah"
+    },
+    {
+        "region": 4,
+        "parliament": 134,
+        "id": 1,
+        "name": "kuala linggi"
+    },
+    {
+        "region": 4,
+        "parliament": 134,
+        "id": 2,
+        "name": "tanjung bidara"
+    },
+    {
+        "region": 4,
+        "parliament": 134,
+        "id": 3,
+        "name": "ayer limau"
+    },
+    {
+        "region": 4,
+        "parliament": 134,
+        "id": 4,
+        "name": "lendu"
+    },
+    {
+        "region": 4,
+        "parliament": 134,
+        "id": 5,
+        "name": "taboh naning"
+    },
+    {
+        "region": 4,
+        "parliament": 135,
+        "id": 6,
+        "name": "rembia"
+    },
+    {
+        "region": 4,
+        "parliament": 135,
+        "id": 7,
+        "name": "gadek"
+    },
+    {
+        "region": 4,
+        "parliament": 135,
+        "id": 8,
+        "name": "machap"
+    },
+    {
+        "region": 4,
+        "parliament": 135,
+        "id": 9,
+        "name": "durian tunggal"
+    },
+    {
+        "region": 4,
+        "parliament": 135,
+        "id": 10,
+        "name": "asahan"
+    },
+    {
+        "region": 4,
+        "parliament": 136,
+        "id": 11,
+        "name": "sungai udang"
+    },
+    {
+        "region": 4,
+        "parliament": 136,
+        "id": 12,
+        "name": "pantai kundor"
+    },
+    {
+        "region": 4,
+        "parliament": 136,
+        "id": 13,
+        "name": "paya rumput"
+    },
+    {
+        "region": 4,
+        "parliament": 136,
+        "id": 14,
+        "name": "kelebang"
+    },
+    {
+        "region": 4,
+        "parliament": 137,
+        "id": 15,
+        "name": "bachang"
+    },
+    {
+        "region": 4,
+        "parliament": 137,
+        "id": 16,
+        "name": "ayer keroh"
+    },
+    {
+        "region": 4,
+        "parliament": 137,
+        "id": 17,
+        "name": "bukit baru"
+    },
+    {
+        "region": 4,
+        "parliament": 137,
+        "id": 18,
+        "name": "ayer molek"
+    },
+    {
+        "region": 4,
+        "parliament": 138,
+        "id": 19,
+        "name": "kesidang"
+    },
+    {
+        "region": 4,
+        "parliament": 138,
+        "id": 20,
+        "name": "kota laksamana"
+    },
+    {
+        "region": 4,
+        "parliament": 138,
+        "id": 21,
+        "name": "duyong"
+    },
+    {
+        "region": 4,
+        "parliament": 138,
+        "id": 22,
+        "name": "bandar hilir"
+    },
+    {
+        "region": 4,
+        "parliament": 138,
+        "id": 23,
+        "name": "telok mas"
+    },
+    {
+        "region": 4,
+        "parliament": 139,
+        "id": 24,
+        "name": "bemban"
+    },
+    {
+        "region": 4,
+        "parliament": 139,
+        "id": 25,
+        "name": "rim"
+    },
+    {
+        "region": 4,
+        "parliament": 139,
+        "id": 26,
+        "name": "serkam"
+    },
+    {
+        "region": 4,
+        "parliament": 139,
+        "id": 27,
+        "name": "merlimau"
+    },
+    {
+        "region": 4,
+        "parliament": 139,
+        "id": 28,
+        "name": "sungai rambai"
+    },
+    {
+        "region": 1,
+        "parliament": 140,
+        "id": 1,
+        "name": "buloh kasap"
+    },
+    {
+        "region": 1,
+        "parliament": 140,
+        "id": 2,
+        "name": "jementah"
+    },
+    {
+        "region": 1,
+        "parliament": 141,
+        "id": 3,
+        "name": "pemanis"
+    },
+    {
+        "region": 1,
+        "parliament": 141,
+        "id": 4,
+        "name": "kemelah"
+    },
+    {
+        "region": 1,
+        "parliament": 142,
+        "id": 5,
+        "name": "tenang"
+    },
+    {
+        "region": 1,
+        "parliament": 142,
+        "id": 6,
+        "name": "bekok"
+    },
+    {
+        "region": 1,
+        "parliament": 143,
+        "id": 7,
+        "name": "bukit serampang"
+    },
+    {
+        "region": 1,
+        "parliament": 143,
+        "id": 8,
+        "name": "jorak"
+    },
+    {
+        "region": 1,
+        "parliament": 144,
+        "id": 9,
+        "name": "gambir"
+    },
+    {
+        "region": 1,
+        "parliament": 144,
+        "id": 10,
+        "name": "tangkak"
+    },
+    {
+        "region": 1,
+        "parliament": 144,
+        "id": 11,
+        "name": "serom"
+    },
+    {
+        "region": 1,
+        "parliament": 145,
+        "id": 12,
+        "name": "bentayan"
+    },
+    {
+        "region": 1,
+        "parliament": 145,
+        "id": 13,
+        "name": "sungai abong"
+    },
+    {
+        "region": 1,
+        "parliament": 145,
+        "id": 14,
+        "name": "bukit naning"
+    },
+    {
+        "region": 1,
+        "parliament": 146,
+        "id": 15,
+        "name": "maharani"
+    },
+    {
+        "region": 1,
+        "parliament": 146,
+        "id": 16,
+        "name": "sungai balang"
+    },
+    {
+        "region": 1,
+        "parliament": 147,
+        "id": 17,
+        "name": "semerah"
+    },
+    {
+        "region": 1,
+        "parliament": 147,
+        "id": 18,
+        "name": "sri medan"
+    },
+    {
+        "region": 1,
+        "parliament": 148,
+        "id": 19,
+        "name": "yong peng"
+    },
+    {
+        "region": 1,
+        "parliament": 148,
+        "id": 20,
+        "name": "semarang"
+    },
+    {
+        "region": 1,
+        "parliament": 149,
+        "id": 21,
+        "name": "parit yaani"
+    },
+    {
+        "region": 1,
+        "parliament": 149,
+        "id": 22,
+        "name": "parit raja"
+    },
+    {
+        "region": 1,
+        "parliament": 150,
+        "id": 23,
+        "name": "penggaram"
+    },
+    {
+        "region": 1,
+        "parliament": 150,
+        "id": 24,
+        "name": "senggarang"
+    },
+    {
+        "region": 1,
+        "parliament": 150,
+        "id": 25,
+        "name": "rengit"
+    },
+    {
+        "region": 1,
+        "parliament": 151,
+        "id": 26,
+        "name": "machap"
+    },
+    {
+        "region": 1,
+        "parliament": 151,
+        "id": 27,
+        "name": "layang-layang"
+    },
+    {
+        "region": 1,
+        "parliament": 152,
+        "id": 28,
+        "name": "mengkibol"
+    },
+    {
+        "region": 1,
+        "parliament": 152,
+        "id": 29,
+        "name": "mahkota"
+    },
+    {
+        "region": 1,
+        "parliament": 153,
+        "id": 30,
+        "name": "paloh"
+    },
+    {
+        "region": 1,
+        "parliament": 153,
+        "id": 31,
+        "name": "kahang"
+    },
+    {
+        "region": 1,
+        "parliament": 154,
+        "id": 32,
+        "name": "endau"
+    },
+    {
+        "region": 1,
+        "parliament": 154,
+        "id": 33,
+        "name": "tenggaroh"
+    },
+    {
+        "region": 1,
+        "parliament": 155,
+        "id": 34,
+        "name": "panti"
+    },
+    {
+        "region": 1,
+        "parliament": 155,
+        "id": 35,
+        "name": "pasir raja"
+    },
+    {
+        "region": 1,
+        "parliament": 156,
+        "id": 36,
+        "name": "sedili"
+    },
+    {
+        "region": 1,
+        "parliament": 156,
+        "id": 37,
+        "name": "johor lama"
+    },
+    {
+        "region": 1,
+        "parliament": 157,
+        "id": 38,
+        "name": "penawar"
+    },
+    {
+        "region": 1,
+        "parliament": 157,
+        "id": 39,
+        "name": "tanjong surat"
+    },
+    {
+        "region": 1,
+        "parliament": 158,
+        "id": 40,
+        "name": "tiram"
+    },
+    {
+        "region": 1,
+        "parliament": 158,
+        "id": 41,
+        "name": "puteri wangsa"
+    },
+    {
+        "region": 1,
+        "parliament": 159,
+        "id": 42,
+        "name": "johor jaya"
+    },
+    {
+        "region": 1,
+        "parliament": 159,
+        "id": 43,
+        "name": "permas"
+    },
+    {
+        "region": 1,
+        "parliament": 160,
+        "id": 44,
+        "name": "tanjong puteri"
+    },
+    {
+        "region": 1,
+        "parliament": 160,
+        "id": 45,
+        "name": "stulang"
+    },
+    {
+        "region": 1,
+        "parliament": 161,
+        "id": 46,
+        "name": "pengkalan rinting"
+    },
+    {
+        "region": 1,
+        "parliament": 161,
+        "id": 47,
+        "name": "kempas"
+    },
+    {
+        "region": 1,
+        "parliament": 162,
+        "id": 48,
+        "name": "skudai"
+    },
+    {
+        "region": 1,
+        "parliament": 162,
+        "id": 49,
+        "name": "nusa jaya"
+    },
+    {
+        "region": 1,
+        "parliament": 163,
+        "id": 50,
+        "name": "bukit permai"
+    },
+    {
+        "region": 1,
+        "parliament": 163,
+        "id": 51,
+        "name": "bukit batu"
+    },
+    {
+        "region": 1,
+        "parliament": 163,
+        "id": 52,
+        "name": "senai"
+    },
+    {
+        "region": 1,
+        "parliament": 164,
+        "id": 53,
+        "name": "benut"
+    },
+    {
+        "region": 1,
+        "parliament": 164,
+        "id": 54,
+        "name": "pulai sebatang"
+    },
+    {
+        "region": 1,
+        "parliament": 165,
+        "id": 55,
+        "name": "pekan nanas"
+    },
+    {
+        "region": 1,
+        "parliament": 165,
+        "id": 56,
+        "name": "kukup"
+    },
+    {
+        "region": 12,
+        "parliament": 167,
+        "id": 1,
+        "name": "banggi"
+    },
+    {
+        "region": 12,
+        "parliament": 167,
+        "id": 2,
+        "name": "tanjong kapor"
+    },
+    {
+        "region": 12,
+        "parliament": 167,
+        "id": 3,
+        "name": "pitas"
+    },
+    {
+        "region": 12,
+        "parliament": 168,
+        "id": 4,
+        "name": "matunggong"
+    },
+    {
+        "region": 12,
+        "parliament": 168,
+        "id": 5,
+        "name": "tandek"
+    },
+    {
+        "region": 12,
+        "parliament": 169,
+        "id": 6,
+        "name": "tempasuk"
+    },
+    {
+        "region": 12,
+        "parliament": 169,
+        "id": 7,
+        "name": "kadamaian"
+    },
+    {
+        "region": 12,
+        "parliament": 169,
+        "id": 8,
+        "name": "usukan"
+    },
+    {
+        "region": 12,
+        "parliament": 170,
+        "id": 9,
+        "name": "tamparuli"
+    },
+    {
+        "region": 12,
+        "parliament": 170,
+        "id": 10,
+        "name": "sulaman"
+    },
+    {
+        "region": 12,
+        "parliament": 170,
+        "id": 11,
+        "name": "kiulu"
+    },
+    {
+        "region": 12,
+        "parliament": 171,
+        "id": 12,
+        "name": "karambunai"
+    },
+    {
+        "region": 12,
+        "parliament": 171,
+        "id": 13,
+        "name": "inanam"
+    },
+    {
+        "region": 12,
+        "parliament": 172,
+        "id": 14,
+        "name": "likas"
+    },
+    {
+        "region": 12,
+        "parliament": 172,
+        "id": 15,
+        "name": "api-api"
+    },
+    {
+        "region": 12,
+        "parliament": 172,
+        "id": 16,
+        "name": "luyang"
+    },
+    {
+        "region": 12,
+        "parliament": 173,
+        "id": 17,
+        "name": "tanjong aru"
+    },
+    {
+        "region": 12,
+        "parliament": 173,
+        "id": 18,
+        "name": "petagas"
+    },
+    {
+        "region": 12,
+        "parliament": 174,
+        "id": 19,
+        "name": "kapayan"
+    },
+    {
+        "region": 12,
+        "parliament": 174,
+        "id": 20,
+        "name": "moyog"
+    },
+    {
+        "region": 12,
+        "parliament": 175,
+        "id": 21,
+        "name": "kawang"
+    },
+    {
+        "region": 12,
+        "parliament": 175,
+        "id": 22,
+        "name": "pantai manis"
+    },
+    {
+        "region": 12,
+        "parliament": 176,
+        "id": 23,
+        "name": "bongawan"
+    },
+    {
+        "region": 12,
+        "parliament": 176,
+        "id": 24,
+        "name": "membakut"
+    },
+    {
+        "region": 12,
+        "parliament": 177,
+        "id": 25,
+        "name": "klias"
+    },
+    {
+        "region": 12,
+        "parliament": 177,
+        "id": 26,
+        "name": "kuala penyu"
+    },
+    {
+        "region": 12,
+        "parliament": 178,
+        "id": 27,
+        "name": "lumadan"
+    },
+    {
+        "region": 12,
+        "parliament": 178,
+        "id": 28,
+        "name": "sindumin"
+    },
+    {
+        "region": 12,
+        "parliament": 179,
+        "id": 29,
+        "name": "kundasang"
+    },
+    {
+        "region": 12,
+        "parliament": 179,
+        "id": 30,
+        "name": "karanaan"
+    },
+    {
+        "region": 12,
+        "parliament": 179,
+        "id": 31,
+        "name": "paginatan"
+    },
+    {
+        "region": 12,
+        "parliament": 180,
+        "id": 32,
+        "name": "tambunan"
+    },
+    {
+        "region": 12,
+        "parliament": 180,
+        "id": 33,
+        "name": "bingkor"
+    },
+    {
+        "region": 12,
+        "parliament": 180,
+        "id": 34,
+        "name": "liawan"
+    },
+    {
+        "region": 12,
+        "parliament": 181,
+        "id": 35,
+        "name": "melalap"
+    },
+    {
+        "region": 12,
+        "parliament": 181,
+        "id": 36,
+        "name": "kemabong"
+    },
+    {
+        "region": 12,
+        "parliament": 182,
+        "id": 37,
+        "name": "sook"
+    },
+    {
+        "region": 12,
+        "parliament": 182,
+        "id": 38,
+        "name": "nabawan"
+    },
+    {
+        "region": 12,
+        "parliament": 183,
+        "id": 39,
+        "name": "sugut"
+    },
+    {
+        "region": 12,
+        "parliament": 183,
+        "id": 40,
+        "name": "labuk"
+    },
+    {
+        "region": 12,
+        "parliament": 184,
+        "id": 41,
+        "name": "gum-gum"
+    },
+    {
+        "region": 12,
+        "parliament": 184,
+        "id": 42,
+        "name": "sungai sibuga"
+    },
+    {
+        "region": 12,
+        "parliament": 185,
+        "id": 43,
+        "name": "sekong"
+    },
+    {
+        "region": 12,
+        "parliament": 185,
+        "id": 44,
+        "name": "karamunting"
+    },
+    {
+        "region": 12,
+        "parliament": 186,
+        "id": 45,
+        "name": "elopura"
+    },
+    {
+        "region": 12,
+        "parliament": 186,
+        "id": 46,
+        "name": "tanjong papat"
+    },
+    {
+        "region": 12,
+        "parliament": 187,
+        "id": 47,
+        "name": "kuamut"
+    },
+    {
+        "region": 12,
+        "parliament": 187,
+        "id": 48,
+        "name": "sukau"
+    },
+    {
+        "region": 12,
+        "parliament": 188,
+        "id": 49,
+        "name": "tungku"
+    },
+    {
+        "region": 12,
+        "parliament": 188,
+        "id": 50,
+        "name": "lahad datu"
+    },
+    {
+        "region": 12,
+        "parliament": 188,
+        "id": 51,
+        "name": "kunak"
+    },
+    {
+        "region": 12,
+        "parliament": 189,
+        "id": 52,
+        "name": "sulabayan"
+    },
+    {
+        "region": 12,
+        "parliament": 189,
+        "id": 53,
+        "name": "senallang"
+    },
+    {
+        "region": 12,
+        "parliament": 189,
+        "id": 54,
+        "name": "bugaya"
+    },
+    {
+        "region": 12,
+        "parliament": 190,
+        "id": 55,
+        "name": "balung"
+    },
+    {
+        "region": 12,
+        "parliament": 190,
+        "id": 56,
+        "name": "apas"
+    },
+    {
+        "region": 12,
+        "parliament": 190,
+        "id": 57,
+        "name": "sri tanjong"
+    },
+    {
+        "region": 12,
+        "parliament": 191,
+        "id": 58,
+        "name": "merotai"
+    },
+    {
+        "region": 12,
+        "parliament": 191,
+        "id": 59,
+        "name": "tanjong batu"
+    },
+    {
+        "region": 12,
+        "parliament": 191,
+        "id": 60,
+        "name": "sebatik"
+    },
+    {
+        "region": 13,
+        "parliament": 192,
+        "id": 1,
+        "name": "opar"
+    },
+    {
+        "region": 13,
+        "parliament": 192,
+        "id": 2,
+        "name": "tasik biru"
+    },
+    {
+        "region": 13,
+        "parliament": 193,
+        "id": 3,
+        "name": "tanjong datu"
+    },
+    {
+        "region": 13,
+        "parliament": 193,
+        "id": 4,
+        "name": "pantai damai"
+    },
+    {
+        "region": 13,
+        "parliament": 193,
+        "id": 5,
+        "name": "demak laut"
+    },
+    {
+        "region": 13,
+        "parliament": 194,
+        "id": 6,
+        "name": "tupong"
+    },
+    {
+        "region": 13,
+        "parliament": 194,
+        "id": 7,
+        "name": "samariang"
+    },
+    {
+        "region": 13,
+        "parliament": 194,
+        "id": 8,
+        "name": "satok"
+    },
+    {
+        "region": 13,
+        "parliament": 195,
+        "id": 9,
+        "name": "padungan"
+    },
+    {
+        "region": 13,
+        "parliament": 195,
+        "id": 10,
+        "name": "pending"
+    },
+    {
+        "region": 13,
+        "parliament": 196,
+        "id": 11,
+        "name": "batu lintang"
+    },
+    {
+        "region": 13,
+        "parliament": 196,
+        "id": 12,
+        "name": "kota sentosa"
+    },
+    {
+        "region": 13,
+        "parliament": 196,
+        "id": 13,
+        "name": "batu kawah"
+    },
+    {
+        "region": 13,
+        "parliament": 197,
+        "id": 14,
+        "name": "asajaya"
+    },
+    {
+        "region": 13,
+        "parliament": 197,
+        "id": 15,
+        "name": "muara tuang"
+    },
+    {
+        "region": 13,
+        "parliament": 198,
+        "id": 16,
+        "name": "bengoh"
+    },
+    {
+        "region": 13,
+        "parliament": 198,
+        "id": 17,
+        "name": "tarat"
+    },
+    {
+        "region": 13,
+        "parliament": 199,
+        "id": 18,
+        "name": "tebedu"
+    },
+    {
+        "region": 13,
+        "parliament": 199,
+        "id": 19,
+        "name": "kedup"
+    },
+    {
+        "region": 13,
+        "parliament": 200,
+        "id": 20,
+        "name": "sadong jaya"
+    },
+    {
+        "region": 13,
+        "parliament": 200,
+        "id": 21,
+        "name": "simunjan"
+    },
+    {
+        "region": 13,
+        "parliament": 201,
+        "id": 22,
+        "name": "sebuyau"
+    },
+    {
+        "region": 13,
+        "parliament": 201,
+        "id": 23,
+        "name": "lingga"
+    },
+    {
+        "region": 13,
+        "parliament": 201,
+        "id": 24,
+        "name": "beting maro"
+    },
+    {
+        "region": 13,
+        "parliament": 202,
+        "id": 25,
+        "name": "balai ringin"
+    },
+    {
+        "region": 13,
+        "parliament": 202,
+        "id": 26,
+        "name": "bukit begunan"
+    },
+    {
+        "region": 13,
+        "parliament": 202,
+        "id": 27,
+        "name": "simanggang"
+    },
+    {
+        "region": 13,
+        "parliament": 203,
+        "id": 28,
+        "name": "engkilili"
+    },
+    {
+        "region": 13,
+        "parliament": 203,
+        "id": 29,
+        "name": "batang air"
+    },
+    {
+        "region": 13,
+        "parliament": 204,
+        "id": 30,
+        "name": "saribas"
+    },
+    {
+        "region": 13,
+        "parliament": 204,
+        "id": 31,
+        "name": "layar"
+    },
+    {
+        "region": 13,
+        "parliament": 204,
+        "id": 32,
+        "name": "bukit saban"
+    },
+    {
+        "region": 13,
+        "parliament": 205,
+        "id": 33,
+        "name": "kalaka"
+    },
+    {
+        "region": 13,
+        "parliament": 205,
+        "id": 34,
+        "name": "krian"
+    },
+    {
+        "region": 13,
+        "parliament": 206,
+        "id": 35,
+        "name": "belawai"
+    },
+    {
+        "region": 13,
+        "parliament": 206,
+        "id": 36,
+        "name": "semop"
+    },
+    {
+        "region": 13,
+        "parliament": 207,
+        "id": 37,
+        "name": "daro"
+    },
+    {
+        "region": 13,
+        "parliament": 207,
+        "id": 38,
+        "name": "jemoreng"
+    },
+    {
+        "region": 13,
+        "parliament": 208,
+        "id": 39,
+        "name": "repok"
+    },
+    {
+        "region": 13,
+        "parliament": 208,
+        "id": 40,
+        "name": "meradong"
+    },
+    {
+        "region": 13,
+        "parliament": 209,
+        "id": 41,
+        "name": "pakan"
+    },
+    {
+        "region": 13,
+        "parliament": 209,
+        "id": 42,
+        "name": "meluan"
+    },
+    {
+        "region": 13,
+        "parliament": 210,
+        "id": 43,
+        "name": "ngemah"
+    },
+    {
+        "region": 13,
+        "parliament": 210,
+        "id": 44,
+        "name": "machan"
+    },
+    {
+        "region": 13,
+        "parliament": 211,
+        "id": 45,
+        "name": "bukit assek"
+    },
+    {
+        "region": 13,
+        "parliament": 211,
+        "id": 46,
+        "name": "dudong"
+    },
+    {
+        "region": 13,
+        "parliament": 212,
+        "id": 47,
+        "name": "bawang assan"
+    },
+    {
+        "region": 13,
+        "parliament": 212,
+        "id": 48,
+        "name": "pelawan"
+    },
+    {
+        "region": 13,
+        "parliament": 212,
+        "id": 49,
+        "name": "nangka"
+    },
+    {
+        "region": 13,
+        "parliament": 213,
+        "id": 50,
+        "name": "dalat"
+    },
+    {
+        "region": 13,
+        "parliament": 213,
+        "id": 51,
+        "name": "balingian"
+    },
+    {
+        "region": 13,
+        "parliament": 214,
+        "id": 52,
+        "name": "tamin"
+    },
+    {
+        "region": 13,
+        "parliament": 214,
+        "id": 53,
+        "name": "kakus"
+    },
+    {
+        "region": 13,
+        "parliament": 215,
+        "id": 54,
+        "name": "pelagus"
+    },
+    {
+        "region": 13,
+        "parliament": 215,
+        "id": 55,
+        "name": "katibas"
+    },
+    {
+        "region": 13,
+        "parliament": 216,
+        "id": 56,
+        "name": "baleh"
+    },
+    {
+        "region": 13,
+        "parliament": 216,
+        "id": 57,
+        "name": "belaga"
+    },
+    {
+        "region": 13,
+        "parliament": 217,
+        "id": 58,
+        "name": "jepak"
+    },
+    {
+        "region": 13,
+        "parliament": 217,
+        "id": 59,
+        "name": "kidurong"
+    },
+    {
+        "region": 13,
+        "parliament": 217,
+        "id": 60,
+        "name": "kemena"
+    },
+    {
+        "region": 13,
+        "parliament": 218,
+        "id": 61,
+        "name": "bekenu"
+    },
+    {
+        "region": 13,
+        "parliament": 218,
+        "id": 62,
+        "name": "lambir"
+    },
+    {
+        "region": 13,
+        "parliament": 219,
+        "id": 63,
+        "name": "piasau"
+    },
+    {
+        "region": 13,
+        "parliament": 219,
+        "id": 64,
+        "name": "pujut"
+    },
+    {
+        "region": 13,
+        "parliament": 219,
+        "id": 65,
+        "name": "senadin"
+    },
+    {
+        "region": 13,
+        "parliament": 220,
+        "id": 66,
+        "name": "marudi"
+    },
+    {
+        "region": 13,
+        "parliament": 220,
+        "id": 67,
+        "name": "telang usan"
+    },
+    {
+        "region": 13,
+        "parliament": 221,
+        "id": 68,
+        "name": "bukit kota"
+    },
+    {
+        "region": 13,
+        "parliament": 221,
+        "id": 69,
+        "name": "batu danau"
+    },
+    {
+        "region": 13,
+        "parliament": 222,
+        "id": 70,
+        "name": "ba'kelalan"
+    },
+    {
+        "region": 13,
+        "parliament": 222,
+        "id": 71,
+        "name": "bukit sari"
+    }
+]
