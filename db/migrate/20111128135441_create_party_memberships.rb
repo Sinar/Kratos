@@ -2,7 +2,7 @@ class CreatePartyMemberships < ActiveRecord::Migration
   def change
     create_table :party_memberships, { :id => false } do |t|
       t.string :uuid, :limit => 36, :null => false
-      t.string :party_code, :null => false
+      t.string :party_code
       t.string :member_uuid, :null => false
       t.integer :joined_at, :null => false
       t.integer :parted_at

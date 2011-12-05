@@ -80,6 +80,11 @@ coalitionships = Coalitionship.create([
   { coalition_code: 'PR', party_code: 'PAS', joined_at: 2008 },
 ])
 
+#  Constituencies
+
+# JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/constituencies.json').read).each do |e|
+# end
+
 # Members
 
 JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/members.json').read).each do |e|
@@ -97,7 +102,7 @@ JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/members.json').read).eac
     fax = e['No_Fax'][/^([\d \-]+)(?:,|\/)*/, 1].gsub(/[\-\s]/, '')
   end
 
-  m = Member.create({ name: e['Nama'], email: email, phone: phone, fax: fax })
-  PartyMembership.create({ member: m, party: party })
+  member = Member.create({ name: e['Nama'], email: email, phone: phone, fax: fax })
+  PartyMembership.create({ member: member, party: party, joined_at: 2011 }).inspect # We assume that everyone joins their party before an election. Fix it up next time.
 
 end

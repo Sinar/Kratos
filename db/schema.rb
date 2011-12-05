@@ -84,7 +84,7 @@ ActiveRecord::Schema.define(:version => 20111202192919) do
 
   create_table "party_memberships", :id => false, :force => true do |t|
     t.string   "uuid",        :limit => 36, :null => false
-    t.string   "party_code",                :null => false
+    t.string   "party_code"
     t.string   "member_uuid",               :null => false
     t.integer  "joined_at",                 :null => false
     t.integer  "parted_at"
