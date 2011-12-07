@@ -80,12 +80,10 @@ coalitionships = Coalitionship.create([
   { coalition_code: 'PR', party_code: 'PAS', joined_at: 2008 },
 ])
 
-#  Constituencies
-
-# JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/constituencies.json').read).each do |e|
-# end
-
 # Members
+
+members_by_constituency = {};
+members_by_district = {};
 
 JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/members.json').read).each do |e|
 
@@ -105,4 +103,21 @@ JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/members.json').read).eac
   member = Member.create({ name: e['Nama'], email: email, phone: phone, fax: fax })
   PartyMembership.create({ member: member, party: party, joined_at: 2011 }).inspect # We assume that everyone joins their party before an election. Fix it up next time.
 
+  members_by_constituency[e['Parlimen']] = member
+
+end
+
+# Constituencies and Districts
+# See: http://en.wikipedia.org/wiki/List_of_Malaysian_electoral_districts
+# In Malaysia, we call them Parliament Constituency and State Assembly District.
+# See: http://en.wikipedia.org/wiki/District#Malaysia
+
+JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/constituencies.json').read).each do |e|
+  constituency = Constituency.create({
+    region: regions.select { |r| r.code == sprintf('%02d', e['region']) }.first,
+    member: members_by_constituency[e['id']],
+    name: e['name'].split(' ').map { |w| w.capitalize }.join(' '),
+    iteration: 12,
+    valid_until: 2012
+  })
 end

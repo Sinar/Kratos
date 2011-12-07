@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111202192919) do
+ActiveRecord::Schema.define(:version => 20111206100735) do
 
   create_table "coalitions", :id => false, :force => true do |t|
     t.string  "code",          :null => false
@@ -39,10 +39,10 @@ ActiveRecord::Schema.define(:version => 20111202192919) do
 
   create_table "constituencies", :id => false, :force => true do |t|
     t.string   "uuid",          :limit => 36, :null => false
-    t.string   "name",                        :null => false
     t.string   "region_code",                 :null => false
-    t.integer  "iteration",                   :null => false
     t.string   "member_uuid",                 :null => false
+    t.string   "name",                        :null => false
+    t.integer  "iteration",                   :null => false
     t.date     "valid_until"
     t.string   "previous_uuid"
     t.datetime "created_at"
@@ -53,6 +53,23 @@ ActiveRecord::Schema.define(:version => 20111202192919) do
   add_index "constituencies", ["previous_uuid"], :name => "index_constituencies_on_previous_uuid"
   add_index "constituencies", ["region_code"], :name => "index_constituencies_on_region_code"
   add_index "constituencies", ["uuid"], :name => "index_constituencies_on_uuid", :unique => true
+
+  create_table "districts", :id => false, :force => true do |t|
+    t.string   "uuid",              :limit => 36, :null => false
+    t.string   "constituency_uuid",               :null => false
+    t.string   "member_uuid",                     :null => false
+    t.string   "name",                            :null => false
+    t.integer  "iteration",                       :null => false
+    t.date     "valid_until"
+    t.string   "previous_uuid"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "districts", ["constituency_uuid"], :name => "index_districts_on_constituency_uuid"
+  add_index "districts", ["member_uuid"], :name => "index_districts_on_member_uuid"
+  add_index "districts", ["previous_uuid"], :name => "index_districts_on_previous_uuid"
+  add_index "districts", ["uuid"], :name => "index_districts_on_uuid", :unique => true
 
   create_table "members", :id => false, :force => true do |t|
     t.string   "uuid",        :limit => 36, :null => false

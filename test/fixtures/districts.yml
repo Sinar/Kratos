@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uuid: MyString
+  name: MyString
+  constituency_uuid: MyString
+  member_uuid: MyString
+  valid_until: 2011-12-06
+  previous_uuid: MyString
+
+two:
+  uuid: MyString
+  name: MyString
+  constituency_uuid: MyString
+  member_uuid: MyString
+  valid_until: 2011-12-06
+  previous_uuid: MyString
