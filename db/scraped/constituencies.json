@@ -87,7 +87,7 @@
     {
         "region": 2,
         "id": 18,
-        "name": "kulim-bandar "
+        "name": "kulim bandar"
     },
     {
         "region": 3,
@@ -177,7 +177,7 @@
     {
         "region": 11,
         "id": 36,
-        "name": "kualaterengganu"
+        "name": "kuala terengganu"
     },
     {
         "region": 11,
@@ -615,47 +615,47 @@
         "name": "bandar tun razak"
     },
     {
-        "region": 14,
+        "region": 16,
         "id": 125,
         "name": "putrajaya"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 126,
         "name": "jelebu"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 127,
         "name": "jempol"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 128,
         "name": "seremban"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 129,
         "name": "kuala pilah"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 130,
         "name": "rasah"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 131,
         "name": "rembau"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 132,
         "name": "telok kemang"
     },
     {
-        "region": 14,
+        "region": 5,
         "id": 133,
         "name": "tampin"
     },
@@ -820,7 +820,7 @@
         "name": "tanjong piai"
     },
     {
-        "region": 1,
+        "region": 15,
         "id": 166,
         "name": "labuan"
     },
