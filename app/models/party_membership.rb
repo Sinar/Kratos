@@ -1,6 +1,7 @@
 class PartyMembership < ActiveRecord::Base
 
   include UUIDHelper
+  set_primary_key :uuid
 
   belongs_to :member, :primary_key => 'uuid', :foreign_key => 'member_uuid'
   belongs_to :party, :primary_key => 'code', :foreign_key => 'party_code'
