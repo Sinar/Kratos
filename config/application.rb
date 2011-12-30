@@ -44,5 +44,15 @@ module Kratos
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Secure your cookie-based session.
+    # http://guides.rubyonrails.org/security.html#session-storage
+    # http://rubyonrailsdevelopment.pl/archives/secure-cookies-in-ruby-on-rails
+    config.action_dispatch.session = {
+        :key => '_app_session',
+        :secret => 'fu8cked15ap25up2EnoadroaqLULZ4ep',
+        :expire_after => 3600
+    }
+
   end
 end

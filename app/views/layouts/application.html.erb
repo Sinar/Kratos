@@ -7,8 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <header>
+      <%= render 'devise/menu/su_items' %>
+  </header>
+  <div class="flash" id="flash-main">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  </div>
+  <%= yield %>
 </body>
 </html>

@@ -1,7 +1,21 @@
 Kratos::Application.routes.draw do
-  resources :constituencies
 
+  # This makes /admins/sign_in the sign-in route.
+  # See: https://github.com/plataformatec/devise/wiki/How-To:-Change-the-default-sign_in-and-sign_out-routes
+  # Customized controllers: http://stackoverflow.com/a/4502272/36397
+  scope '/su' do
+    devise_for :admins,
+      :path_names => { :sign_in => 'in', :sign_out => 'out' },
+      # To stay away module (and view) matters, we use scope together with path.
+      # See: http://stackoverflow.com/q/4404235/36397
+      :path_prefix => 'su'
+    resources :admins
+    root :to => 'admins#index'
+  end
+
+  resources :constituencies
   resources :members
+  root :to => "members#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
