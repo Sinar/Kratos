@@ -126,6 +126,16 @@ JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/constituencies.json').re
     member: members_by_constituency[e['id']],
     name: e['name'].split(' ').map { |w| w.capitalize }.join(' '),
     iteration: 12,
+    code: e['id'],
     valid_until: 2012
   })
+end
+
+JSON.parse(File.open(File.dirname(__FILE__) + '/scraped/sites.json').read).each do |e|
+  code = e['id'].match(/(\d+)$/)[1]
+  unless (constituency = Constituency.where(:iteration => 12, :code => code).limit(1).first).nil?
+    member = constituency.member
+    member.assign_attributes({ facebook: e['facebook_url'], twitter: e['twitter_url'], www: e['website_url'] })
+    member.save
+  end
 end

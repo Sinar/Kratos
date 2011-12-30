@@ -6,6 +6,7 @@ class CreateConstituencies < ActiveRecord::Migration
       t.string :member_uuid, :null => false
       t.string :name, :null => false
       t.integer :iteration, :null => false
+      t.integer :code, :null => false
       t.date :valid_until
       t.string :previous_uuid
       t.timestamps
