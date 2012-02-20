@@ -1,0 +1,115 @@
+
+---
+parties:
+  columns:
+  - code
+  - name
+  - name_in_malay
+  - founded_in
+  - disbanded_in
+  records: 
+  - - DAP
+    - People's Justice Party
+    - Parti Rakyat Sarawak
+    - 1966
+    - 
+  - - GERAKAN
+    - Malaysian People's Movement Party
+    - Parti Gerakan Rakyat Malaysia
+    - 1968
+    - 
+  - - LDP
+    - Liberal Democratic Party
+    - Parti Liberal Demokratik
+    - 1988
+    - 
+  - - MCA
+    - Malaysian Chinese Association
+    - Persatuan Cina Malaysia
+    - 1949
+    - 
+  - - MDP
+    - Malaysian Democratic Party
+    - Parti Demokratik Malaysia
+    - 1998
+    - 
+  - - MIC
+    - ! ' Malaysian Indian Congress'
+    - Kongres India Malaysia
+    - 1946
+    - 
+  - - PAS
+    - Islamic Party of Malaysia
+    - Parti Rakyat Sarawak
+    - 1955
+    - 
+  - - PBB
+    - United Bumiputera Heritage Party
+    - Parti Pesaka Bumiputera Bersatu
+    - 1973
+    - 
+  - - PBRS
+    - United Sabah People's Party
+    - Parti Bersatu Rakyat Sabah
+    - 1994
+    - 
+  - - PBS
+    - Sabah United Party
+    - Parti Bersatu Sabah
+    - 1985
+    - 
+  - - PKR
+    - People's Justice Party
+    - Parti Rakyat Sarawak
+    - 2003
+    - 
+  - - PPP
+    - People's Progressive Party
+    - Parti Progresif Penduduk Malaysia
+    - 1953
+    - 
+  - - PRM
+    - Malaysian People's Party
+    - Parti Rakyat Malaysia
+    - 1955
+    - 
+  - - PRS
+    - Sarawak People's Party
+    - Parti Rakyat Sarawak
+    - 2004
+    - 
+  - - PSM
+    - Socialist Party of Malaysia
+    - Parti Sosialis Malaysia
+    - 1998
+    - 
+  - - SAPP
+    - Sabah Progressive Party
+    - Parti Maju Sabah
+    - 1994
+    - 
+  - - SNAP
+    - Sarawak National Party
+    - Parti Kebangsaan Sarawak
+    - 1961
+    - 
+  - - SPDP
+    - Sarawak Progressive Democratic Party
+    - Parti Demokratik Progresif Sarawak
+    - 2002
+    - 
+  - - SUPP
+    - Sarawak United People's Party
+    - Parti Rakyat Bersatu Sarawak
+    - 1959
+    - 
+  - - UMNO
+    - United Malays National Organisation
+    - Pertubuhan Kebangsaan Melayu Bersatu
+    - 1946
+    - 
+  - - UPKO
+    - United Pasokmomogun Kadazandusun Murut Organisation
+    - Pertubuhan Pasok Momogun Kadazandusun Murut Bersatu
+    - 1994
+    - 

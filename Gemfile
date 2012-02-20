@@ -7,6 +7,7 @@ gem 'rails', '3.1.1'
 gem 'devise'
 gem 'sqlite3'
 gem 'uuidtools'
+gem 'yaml_db'
 
 # Gems used only for assets and not required
 # in production environments by default.

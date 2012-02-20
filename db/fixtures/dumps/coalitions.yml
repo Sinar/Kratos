@@ -1,0 +1,20 @@
+
+---
+coalitions:
+  columns:
+  - code
+  - name
+  - name_in_malay
+  - founded_in
+  - disbanded_in
+  records: 
+  - - BN
+    - National Front
+    - Barisan Nasional
+    - 1973
+    - 
+  - - PR
+    - People's Pact
+    - Pakatan Rakyat
+    - 2008
+    - 

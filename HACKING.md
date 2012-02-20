@@ -29,4 +29,13 @@ Environment
 The default settings use SQLite and if you are looking for a GUI tool, [SQLite Manager](http://code.google.com/p/sqlite-manager/)
 is the right choice.
 
-    rake db:drop db:create db:migrate db:seed
+    rake db:drop db:create db:migrate
+
+To insert the default set of data (especially as we want to fix the UUID of certain records), use:
+
+    rake db:data:load_dir dir="fixtures/dumps"
+
+The dumps in `fixtures/dumps` are created via:
+
+    rake db:seed
+    rake db:data:dump_dir dir="fixtures/dumps"
