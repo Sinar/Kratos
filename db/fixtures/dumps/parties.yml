@@ -7,109 +7,131 @@ parties:
   - name_in_malay
   - founded_in
   - disbanded_in
+  - uuid
   records: 
   - - DAP
     - People's Justice Party
     - Parti Rakyat Sarawak
     - 1966
-    - 
+    - !!null 
+    - 649097f6-6e9e-11e1-ac9b-080027f072f5
   - - GERAKAN
     - Malaysian People's Movement Party
     - Parti Gerakan Rakyat Malaysia
     - 1968
-    - 
+    - !!null 
+    - 64ce364c-6e9e-11e1-ac9b-080027f072f5
   - - LDP
     - Liberal Democratic Party
     - Parti Liberal Demokratik
     - 1988
-    - 
+    - !!null 
+    - 64d00ada-6e9e-11e1-ac9b-080027f072f5
   - - MCA
     - Malaysian Chinese Association
     - Persatuan Cina Malaysia
     - 1949
-    - 
+    - !!null 
+    - 64d14332-6e9e-11e1-ac9b-080027f072f5
   - - MDP
     - Malaysian Democratic Party
     - Parti Demokratik Malaysia
     - 1998
-    - 
+    - !!null 
+    - 64d7f934-6e9e-11e1-ac9b-080027f072f5
   - - MIC
     - ! ' Malaysian Indian Congress'
     - Kongres India Malaysia
     - 1946
-    - 
+    - !!null 
+    - 64d89560-6e9e-11e1-ac9b-080027f072f5
   - - PAS
     - Islamic Party of Malaysia
     - Parti Rakyat Sarawak
     - 1955
-    - 
+    - !!null 
+    - 64dba250-6e9e-11e1-ac9b-080027f072f5
   - - PBB
     - United Bumiputera Heritage Party
     - Parti Pesaka Bumiputera Bersatu
     - 1973
-    - 
+    - !!null 
+    - 64e56538-6e9e-11e1-ac9b-080027f072f5
   - - PBRS
     - United Sabah People's Party
     - Parti Bersatu Rakyat Sabah
     - 1994
-    - 
+    - !!null 
+    - 64eae2d8-6e9e-11e1-ac9b-080027f072f5
   - - PBS
     - Sabah United Party
     - Parti Bersatu Sabah
     - 1985
-    - 
+    - !!null 
+    - 64ecb766-6e9e-11e1-ac9b-080027f072f5
   - - PKR
     - People's Justice Party
     - Parti Rakyat Sarawak
     - 2003
-    - 
+    - !!null 
+    - 64ee8bea-6e9e-11e1-ac9b-080027f072f5
   - - PPP
     - People's Progressive Party
     - Parti Progresif Penduduk Malaysia
     - 1953
-    - 
+    - !!null 
+    - 64f84ed2-6e9e-11e1-ac9b-080027f072f5
   - - PRM
     - Malaysian People's Party
     - Parti Rakyat Malaysia
     - 1955
-    - 
+    - !!null 
+    - 64f98734-6e9e-11e1-ac9b-080027f072f5
   - - PRS
     - Sarawak People's Party
     - Parti Rakyat Sarawak
     - 2004
-    - 
+    - !!null 
+    - 64f98734-6e9e-11e1-ac9c-080027f072f5
   - - PSM
     - Socialist Party of Malaysia
     - Parti Sosialis Malaysia
     - 1998
-    - 
+    - !!null 
+    - 64fd3046-6e9e-11e1-ac9c-080027f072f5
   - - SAPP
     - Sabah Progressive Party
     - Parti Maju Sabah
     - 1994
-    - 
+    - !!null 
+    - 64fe68a8-6e9e-11e1-ac9c-080027f072f5
   - - SNAP
     - Sarawak National Party
     - Parti Kebangsaan Sarawak
     - 1961
-    - 
+    - !!null 
+    - 64fe68a8-6e9e-11e1-ac9d-080027f072f5
   - - SPDP
     - Sarawak Progressive Democratic Party
     - Parti Demokratik Progresif Sarawak
     - 2002
-    - 
+    - !!null 
+    - 64ff04d4-6e9e-11e1-ac9d-080027f072f5
   - - SUPP
     - Sarawak United People's Party
     - Parti Rakyat Bersatu Sarawak
     - 1959
-    - 
+    - !!null 
+    - 650211ba-6e9e-11e1-ac9d-080027f072f5
   - - UMNO
     - United Malays National Organisation
     - Pertubuhan Kebangsaan Melayu Bersatu
     - 1946
-    - 
+    - !!null 
+    - 65048274-6e9e-11e1-ac9d-080027f072f5
   - - UPKO
     - United Pasokmomogun Kadazandusun Murut Organisation
     - Pertubuhan Pasok Momogun Kadazandusun Murut Bersatu
     - 1994
-    - 
+    - !!null 
+    - 65261074-6e9e-11e1-ac9d-080027f072f5
