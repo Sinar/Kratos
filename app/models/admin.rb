@@ -7,5 +7,7 @@ class Admin < ActiveRecord::Base
   
   devise :database_authenticatable, :lockable, :rememberable, :timeoutable, :trackable
   attr_accessible :email, :password, :remember_me
+
+  validates_uniqueness_of :uuid
   
 end

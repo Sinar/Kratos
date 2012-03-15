@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111222082536) do
+ActiveRecord::Schema.define(:version => 20120314193450) do
 
   create_table "admins", :id => false, :force => true do |t|
     t.string   "uuid",                :limit => 36,                  :null => false
@@ -35,27 +35,28 @@ ActiveRecord::Schema.define(:version => 20111222082536) do
   add_index "admins", ["uuid"], :name => "index_admins_on_uuid", :unique => true
 
   create_table "coalitions", :id => false, :force => true do |t|
-    t.string  "code",          :null => false
-    t.string  "name",          :null => false
-    t.string  "name_in_malay", :null => false
-    t.integer "founded_in",    :null => false
+    t.string  "code",                                        :null => false
+    t.string  "name",                                        :null => false
+    t.string  "name_in_malay",                               :null => false
+    t.integer "founded_in",                                  :null => false
     t.integer "disbanded_in"
+    t.string  "uuid",          :limit => 36, :default => "", :null => false
   end
 
   add_index "coalitions", ["code"], :name => "index_coalitions_on_code", :unique => true
+  add_index "coalitions", ["uuid"], :name => "index_coalitions_on_uuid", :unique => true
 
   create_table "coalitionships", :id => false, :force => true do |t|
-    t.string   "uuid",           :null => false
-    t.string   "coalition_code"
-    t.string   "party_code",     :null => false
-    t.integer  "joined_at",      :null => false
+    t.string   "uuid",                           :null => false
+    t.integer  "joined_at",                      :null => false
     t.integer  "parted_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "party_uuid",     :default => "", :null => false
+    t.string   "coalition_uuid"
   end
 
-  add_index "coalitionships", ["coalition_code"], :name => "index_coalitionships_on_coalition_code"
-  add_index "coalitionships", ["party_code"], :name => "index_coalitionships_on_party_code"
+  add_index "coalitionships", ["coalition_uuid", "party_uuid", "joined_at"], :name => "index_coalitionships_on_when_member_joins_party", :unique => true
   add_index "coalitionships", ["uuid"], :name => "index_coalitionships_on_uuid", :unique => true
 
   create_table "constituencies", :id => false, :force => true do |t|
@@ -112,26 +113,28 @@ ActiveRecord::Schema.define(:version => 20111222082536) do
   add_index "members", ["uuid"], :name => "index_members_on_uuid", :unique => true
 
   create_table "parties", :id => false, :force => true do |t|
-    t.string  "code",          :null => false
-    t.string  "name",          :null => false
-    t.string  "name_in_malay", :null => false
-    t.integer "founded_in",    :null => false
+    t.string  "code",                                        :null => false
+    t.string  "name",                                        :null => false
+    t.string  "name_in_malay",                               :null => false
+    t.integer "founded_in",                                  :null => false
     t.integer "disbanded_in"
+    t.string  "uuid",          :limit => 36, :default => "", :null => false
   end
 
   add_index "parties", ["code"], :name => "index_parties_on_code", :unique => true
+  add_index "parties", ["uuid"], :name => "index_parties_on_uuid", :unique => true
 
   create_table "party_memberships", :id => false, :force => true do |t|
     t.string   "uuid",        :limit => 36, :null => false
-    t.string   "party_code"
     t.string   "member_uuid",               :null => false
     t.integer  "joined_at",                 :null => false
     t.integer  "parted_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "party_uuid"
   end
 
-  add_index "party_memberships", ["party_code", "member_uuid", "joined_at"], :name => "index_party_memberships_on_when_member_joins_party", :unique => true
+  add_index "party_memberships", ["party_uuid", "member_uuid", "joined_at"], :name => "index_party_memberships_on_when_member_joins_party", :unique => true
   add_index "party_memberships", ["uuid"], :name => "index_party_memberships_on_uuid", :unique => true
 
   create_table "regions", :id => false, :force => true do |t|
