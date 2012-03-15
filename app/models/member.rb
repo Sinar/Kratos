@@ -5,6 +5,7 @@ class Member < ActiveRecord::Base
   include UUIDHelper
   set_primary_key :uuid
 
+  validates_uniqueness_of :uuid
   has_many :party_memberships, :primary_key => 'uuid', :foreign_key => 'member_uuid'
 
   def to_param
@@ -12,7 +13,9 @@ class Member < ActiveRecord::Base
   end
 
   def party
-    party_memberships.where(member_uuid: uuid, parted_at: nil).first
+    if pm = party_memberships.where(member_uuid: uuid, parted_at: nil).first
+      pm.party
+    end
   end
 
 end

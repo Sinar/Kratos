@@ -37,5 +37,5 @@ To insert the default set of data (especially as we want to fix the UUID of cert
 
 The dumps in `fixtures/dumps` are created via:
 
-    rake db:seed
-    rake db:data:dump_dir dir="fixtures/dumps"
+    rake db:seed (works only for pre-20120314193450 migration)
+    rm -rf db/fixtures/dumps && rake db:data:dump_dir dir="fixtures/dumps"
