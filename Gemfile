@@ -5,6 +5,8 @@ gem 'rake'
 gem 'rails', '3.1.1'
 
 gem 'devise'
+
+gem 'composite_primary_keys'
 gem 'sqlite3'
 gem 'uuidtools'
 gem 'yaml_db'
@@ -28,10 +30,26 @@ gem 'jquery-rails'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+group :development do
+  # gem 'linecache19'
+  # gem 'ruby-debug-base19'
+  # gem 'ruby-debug19', :require => 'ruby-debug'
+  # gem 'ruby-debug-ide'
+end
+
+# RSpec must be added into the development group, else, specs won't run.
+# See: http://yehudakatz.com/2010/05/09/the-how-and-why-of-bundler-groups/
+group :development, :test do
+  gem 'rspec-rails'
+end
 
 group :test do
-  # Pretty printed test output
-  gem 'turn', :require => false
+  # Cucumber dependencies
+  # gem 'cucumber-rails'
+  # gem 'cucumber-api-steps'
+  gem 'rack-test', :require => 'rack/test'
+  gem 'json_spec'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'shoulda'
 end

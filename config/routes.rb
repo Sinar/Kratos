@@ -13,8 +13,8 @@ Kratos::Application.routes.draw do
     root :to => 'admins#index'
   end
 
-  resources :constituencies
   resources :members
+  resources :parties
   root :to => "members#index"
 
   # The priority is based upon order of creation:

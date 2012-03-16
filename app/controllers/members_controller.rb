@@ -6,7 +6,7 @@ class MembersController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @members }
+      format.json { render json: @members.as_json(:methods => [:party]) }
     end
   end
 
@@ -17,7 +17,7 @@ class MembersController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render json: @member }
+      format.json { render json: @member.as_json(:methods => [:party]) }
     end
   end
 
@@ -28,7 +28,7 @@ class MembersController < ApplicationController
 
     respond_to do |format|
       format.html # new.html.erb
-      format.json { render json: @member }
+      format.json { render json: @member.as_json(:methods => [:party]) }
     end
   end
 
@@ -40,7 +40,7 @@ class MembersController < ApplicationController
   # POST /members
   # POST /members.json
   def create
-    @member = Member.new(params[:member])
+    @member = Member.new(params[:member] || ActiveSupport::JSON.decode(request.body.read))
 
     respond_to do |format|
       if @member.save
@@ -59,7 +59,7 @@ class MembersController < ApplicationController
     @member = Member.find(params[:id])
 
     respond_to do |format|
-      if @member.update_attributes(params[:member])
+      if @member.update_attributes(params[:member] || ActiveSupport::JSON.decode(request.body.read))
         format.html { redirect_to @member, notice: 'Member was successfully updated.' }
         format.json { head :ok }
       else
