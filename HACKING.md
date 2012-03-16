@@ -26,6 +26,8 @@ Environment
 
 # Database
 
+## Creation
+
 The default settings use SQLite and if you are looking for a GUI tool, [SQLite Manager](http://code.google.com/p/sqlite-manager/)
 is the right choice.
 
@@ -39,3 +41,9 @@ The dumps in `fixtures/dumps` are created via:
 
     rake db:seed (works only for pre-20120314193450 migration)
     rm -rf db/fixtures/dumps && rake db:data:dump_dir dir="fixtures/dumps"
+
+## Changes
+
+If the schema is changed (certainly through `rake db:migrate`), besides of creating new dumps, you also need to do a [migration for your tests](http://stackoverflow.com/questions/4949319/factorygirl-rspec-rails-3-undefined-method-attribute) to work:
+
+    rake db:test:load
