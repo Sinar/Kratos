@@ -1,6 +1,6 @@
 require 'uuid_helper'
 
-class Admin < ActiveRecord::Base
+class User < ActiveRecord::Base
 
   include UUIDHelper
   set_primary_key :uuid
