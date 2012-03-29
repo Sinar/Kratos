@@ -7,4 +7,4 @@ User.create({
 })
 
 # Scraped data
-require_relative 'fixtures/scrapes/2011/seeds.rb'
+# require_relative 'fixtures/scrapes/2011/seeds.rb'

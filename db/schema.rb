@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120325233812) do
+ActiveRecord::Schema.define(:version => 20120326003633) do
 
   create_table "coalitions", :id => false, :force => true do |t|
     t.string  "code",                                        :null => false
@@ -124,20 +124,22 @@ ActiveRecord::Schema.define(:version => 20120325233812) do
   add_index "regions", ["code"], :name => "index_regions_on_code", :unique => true
 
   create_table "users", :id => false, :force => true do |t|
-    t.string   "uuid",                :limit => 36,                  :null => false
-    t.string   "email",                              :default => "", :null => false
-    t.string   "encrypted_password",  :limit => 128, :default => "", :null => false
-    t.integer  "failed_attempts",                    :default => 0
+    t.string   "uuid",                 :limit => 36,                       :null => false
+    t.string   "email",                               :default => "",      :null => false
+    t.string   "encrypted_password",   :limit => 128, :default => "",      :null => false
+    t.integer  "failed_attempts",                     :default => 0
     t.string   "unlock_token"
     t.datetime "locked_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",                      :default => 0
+    t.integer  "sign_in_count",                       :default => 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "role",                 :limit => 16,  :default => "basic", :null => false
+    t.string   "authentication_token"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

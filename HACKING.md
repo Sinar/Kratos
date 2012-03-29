@@ -11,7 +11,7 @@ Environment
     rvm gemset create kratos
     rvm gemset use kratos
     gem install bundler
-    bundle install
+    bundle install --without development
 
 # Quick Setup (Windows)
 
@@ -47,3 +47,7 @@ The dumps in `fixtures/dumps` are created via:
 If the schema is changed (certainly through `rake db:migrate`), besides of creating new dumps, you also need to do a [migration for your tests](http://stackoverflow.com/questions/4949319/factorygirl-rspec-rails-3-undefined-method-attribute) to work:
 
     rake db:test:load
+
+This can also be achieved with:
+
+    rake RAILS_ENV=test db:migrate

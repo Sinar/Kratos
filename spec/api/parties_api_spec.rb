@@ -2,8 +2,7 @@ require 'spec_helper'
 
 describe '/parties', :type => :api do
 
-  # Lazy, not suitable for API test. Use before(:each|:all) instead.
-  # let (:party) { create(:party) }
+  let (:user) { create :admin }
 
   before :each do
     @party = create :party_with_coalition
@@ -25,7 +24,7 @@ describe '/parties', :type => :api do
 
   context 'POST /parties' do
     it 'as JSON' do
-      post '/parties.json', build(:party, uuid: 'ASOT', name: 'A State of Trance').to_json(:except => :coalition)
+      post '/parties.json?auth_token=%s' % user.authentication_token, build(:party, uuid: 'ASOT', name: 'A State of Trance').to_json(:except => :coalition)
       Party.where('name like ?', '%State%Trance%').count.should == 1
     end
   end
@@ -33,7 +32,7 @@ describe '/parties', :type => :api do
   context 'DELETE /parties/uuid' do
     it 'as JSON' do
       Party.where(name: @party.name).count.should == 1
-      delete '/parties/%s.json' % @party.uuid
+      delete '/parties/%s.json?auth_token=%s' % [@party.uuid, user.authentication_token]
       Party.where(name: @party.name).count.should == 0
     end
   end

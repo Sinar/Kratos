@@ -1,5 +1,21 @@
-<p id="notice"><%= notice %></p>
+<h1><%= @user.uuid %></h1>
 
+  <dl>
+    <dt>Email</dt>
+    <dd><%= mail_to @user.email %></dd>
+    <dt>Authentication Token</dt>
+    <dd>
+      <% unless @user.authentication_token.blank? %>
+        <span><%= @user.authentication_token %></span> |
+        <%= link_to "Re-Generate", auth_token_path(@user), :method => :post, :confirm => "Are you sure?"  %> |
+        <%= link_to "Revoke", auth_token_path(@user), :method => :delete, :confirm => "Are you sure?"  %>
+      <% else %>
+        <%= link_to "Generate", auth_token_path(@user), :method => :post %>
+      <% end %>
+    </dd>
+  </dl>
+
+</section>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
