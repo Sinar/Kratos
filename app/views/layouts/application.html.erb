@@ -11,8 +11,8 @@
       <%= render 'devise/menu/su_items' %>
   </header>
   <div class="flash" id="flash-main">
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%= content_tag(:p, notice, class: 'notice') if notice %>
+    <%= content_tag(:p, alert,  class: 'alert' ) if alert  %>
   </div>
   <%= yield %>
 </body>

@@ -4,9 +4,11 @@ gem 'rake'
 
 gem 'rails', '3.1.1'
 
+gem 'cancan'
 gem 'devise'
 
 gem 'composite_primary_keys'
+gem 'enumerated_attribute'
 gem 'sqlite3'
 gem 'uuidtools'
 gem 'yaml_db'
@@ -31,10 +33,10 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 group :development do
-  # gem 'linecache19'
-  # gem 'ruby-debug-base19'
-  # gem 'ruby-debug19', :require => 'ruby-debug'
-  # gem 'ruby-debug-ide'
+  gem 'linecache19'
+  gem 'ruby-debug-base19'
+  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'ruby-debug-ide'
 end
 
 # RSpec must be added into the development group, else, specs won't run.

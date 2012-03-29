@@ -1,8 +1,8 @@
-<% if admin_signed_in? %>
+<% if user_signed_in? %>
 <nav>
-  <li><%= link_to current_admin.email, current_admin %></li>
+  <li><%= link_to current_user.email, current_user %></li>
   <li>
-    <%= link_to 'Logout', destroy_admin_session_path, :method => :delete %>
+    <%= link_to 'Logout', destroy_user_session_path, :method => :delete %>
   </li>
 </nav>
 <% end %>

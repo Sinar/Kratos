@@ -5,7 +5,6 @@ class Coalition < ActiveRecord::Base
   include UUIDHelper
   set_primary_key :uuid
 
-  validates_uniqueness_of :uuid
   has_many :coalitionships, :primary_key => 'uuid', :foreign_key => 'coalition_uuid'
   has_many :parties, :through => :coalitionships
 

@@ -1,4 +1,8 @@
-  class PartiesController < ApplicationController
+class PartiesController < ApplicationController
+
+  before_filter :authenticate_user!, :only => [:create, :update, :destroy]
+  load_and_authorize_resource
+
   def index
     @parties = Party.all
 

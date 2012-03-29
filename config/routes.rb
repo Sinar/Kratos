@@ -1,16 +1,22 @@
 Kratos::Application.routes.draw do
 
-  # This makes /admins/sign_in the sign-in route.
+  # This makes /users/sign_in the sign-in route.
   # See: https://github.com/plataformatec/devise/wiki/How-To:-Change-the-default-sign_in-and-sign_out-routes
   # Customized controllers: http://stackoverflow.com/a/4502272/36397
   scope '/su' do
-    devise_for :admins,
+
+    devise_for :users,
       :path_names => { :sign_in => 'in', :sign_out => 'out' },
       # To stay away module (and view) matters, we use scope together with path.
       # See: http://stackoverflow.com/q/4404235/36397
       :path_prefix => 'su'
-    resources :admins
-    root :to => 'admins#index'
+
+    # See: https://github.com/plataformatec/devise/wiki/How-To%3a-Manage-users-through-a-CRUD-interface
+    resources :users
+    # See: http://zyphmartin.com/blog/simple-auth-token-example-with-devise
+    resources :auth_tokens, :only => [:create, :destroy]
+    root :to => 'users#index'
+
   end
 
   resources :members

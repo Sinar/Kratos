@@ -54,5 +54,11 @@ module Kratos
         :expire_after => 3600
     }
 
+    # https://github.com/jeffp/enumerated_attribute
+    config.gem "enumerated_attribute"
+    
+    # CanCan
+    config.gem "cancan"
+
   end
 end
