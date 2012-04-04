@@ -7,10 +7,10 @@
     <dd>
       <% unless @user.authentication_token.blank? %>
         <span><%= @user.authentication_token %></span> |
-        <%= link_to "Re-Generate", auth_token_path(@user), :method => :post, :confirm => "Are you sure?"  %> |
+        <%= link_to "Re-Generate", auth_tokens_path(:id => @user), :method => :post, :confirm => "Are you sure?"  %> |
         <%= link_to "Revoke", auth_token_path(@user), :method => :delete, :confirm => "Are you sure?"  %>
       <% else %>
-        <%= link_to "Generate", auth_token_path(@user), :method => :post %>
+        <%= link_to "Generate", auth_tokens_path(:id => @user), :method => :post %>
       <% end %>
     </dd>
   </dl>
