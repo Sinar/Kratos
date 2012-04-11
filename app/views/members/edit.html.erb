@@ -1,6 +1,10 @@
-<h1>Editing member</h1>
+<h1>Edit member</h1>
+<hr/>
+<% if user_signed_in? %>
+  <ul class="links"><!--
+ --><li><%= link_to 'Show', @member %></li><!--
+ --><li><%= link_to 'Back', members_path %></li>
+  </ul>
+<% end %>
 
 <%= render 'form' %>
-
-<%= link_to 'Show', @member %> |
-<%= link_to 'Back', members_path %>

@@ -1,21 +1,28 @@
-<h1>Listing users</h1>
+<h1>Users</h1>
+<hr/>
+<ul class="links">
+  <li><%= link_to 'New user', new_user_path %></li>
+</ul>
 
-<table>
+<table class="resources">
+  
   <tr>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Email</th>
+    <th>Action</th>
   </tr>
 
 <% @users.each do |user| %>
   <tr>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to user.email, user %></td>
+    <td>
+      <ul class="links">
+        <li><%= link_to 'Edit', edit_user_path(user) %></li>
+        <li><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></li>
+      </ul>
+    </td>
   </tr>
 <% end %>
+
 </table>
 
-<br />
 
-<%= link_to 'New User', new_user_path %>

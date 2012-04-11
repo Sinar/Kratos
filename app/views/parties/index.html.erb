@@ -1,0 +1,38 @@
+<h1>Parties</h1>
+<hr/>
+<% if user_signed_in? %>
+  <ul class="links"><!--
+ --><!--li><%= link_to 'New party', new_party_path %></li-->
+  </ul>
+<% end %>
+
+<table class="resources">
+
+  <tr>
+    <th>Name</th>
+    <th>Coalition</th>
+    <% if user_signed_in? %>
+      <th>Actions</th>
+    <% end %>
+  </tr>
+
+<% @parties.each do |party| %>
+  <tr>
+    <td>
+      <%= link_to ('%s (%s)' % [party.name, party.code]), party %>
+    </td>
+    <td>
+      <%= party.coalition.code if party.coalition %>
+    </td>
+    <% if user_signed_in? %>
+      <td>
+        <ul class="links">
+          <li><%= link_to 'Edit', edit_party_path(party) %></li>
+          <li><%= link_to 'Destroy', party, confirm: 'Are you sure?', method: :delete %></li>
+        </ul>
+      </td>
+    <% end %>
+  </tr>
+<% end %>
+
+</table>

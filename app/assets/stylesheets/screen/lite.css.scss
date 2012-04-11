@@ -1,0 +1,242 @@
+$font-size: 12px;
+$serif: Verdana, Arial, Helvetica, sans-serif;
+
+body {
+  background: #fff;
+  font-family: $serif;
+  font-size: $font-size;
+}
+
+a, a:visited {
+  color: #666;
+  text-decoration: none;
+  &:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+}
+
+h1 { font-size: $font-size * 1.5; }
+h2 { font-size: $font-size * 1.35; }
+h3 { font-size: $font-size * 1.15; }
+h4 { font-size: $font-size * 1; }
+h5 { font-size: $font-size * 0.75; }
+h6 { font-size: $font-size * 0.5; }
+
+header {
+
+  @include box-shadow(0px, 1px, 4px, 1px, #aaa);
+
+  background: #000;
+  color: #fff;
+  padding: 0.75em 0.75em 1.75em;
+
+  #logo {
+
+    font-family: 'Rock Salt';
+    font-size: 2em;
+
+    >small {
+      font-family: $serif;
+      font-size: 0.4em;
+      left: -8em;
+      bottom: -2em;
+      position: relative;
+    }
+  }
+  
+  > nav {
+    float: right;
+    .links {
+      @include links;
+      li {
+        a, a:visited {
+          color: #eee;
+        }
+        a:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+article[role=main] {
+  padding: 1em;
+  h1:first-of-type {
+    text-transform: capitalize;
+    + hr {
+      position: relative;
+      top: -1em;
+      + .links {
+        @include links;
+        position: relative;
+        text-align: right;
+        text-transform: capitalize;
+        top: -1.5em;
+      }
+    }
+  }
+}
+
+.flash {
+  @include box-shadow(0px, 1px, 2px, 1px, #aaa);
+  color: #444;
+  font-size: 1em;
+  padding: 0;
+  > p {
+    &.alert {
+      background: #f8bfa6;
+    }
+    background: #ffffe1;
+    line-height: 1em;
+    margin: 0;
+    padding: 1em
+  }
+}
+
+form {
+
+  > #error_explanation {
+
+    background: #ffdddd;
+    color: #640000;
+    margin: 0.5em;
+    padding: 1em;
+
+    h2 {
+      font-size: 1em;
+      margin: 0;
+      + ul {
+        padding-left: 2em;
+      }
+    }
+  }
+
+  > fieldset {
+
+    width: 48em;
+
+    > .input {
+
+      &.field_with_errors { background: #ffeeee; }
+      margin: 0.5em;
+      padding: 0.5em;
+
+      .error, .hint {
+        clear: left;
+        display: block;
+        font-size: 0.75em;
+        margin-left: 16em; /*(0.75 * 16 = 12)*/
+      }
+      .hint {
+        color: #aaa;
+      }
+      .error {
+        color: red;
+        text-transform: uppercase;
+      }
+    }
+
+    label {
+      float: left;
+      margin-top: 0.5em;
+      text-transform: capitalize;
+      width: 12em;
+    }
+
+    input[type=text], input[type=email], input[type=number], input[type=password], textarea {
+        height: 1.75em;
+        width: 70%;
+    }
+
+    select {
+      height: 2.5em;
+      padding: 0.5em;
+      > option { padding: 0.5em; }
+    }
+  }
+
+  > .actions {
+
+    @include values;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    width: 48em;
+
+    button, input[type=button], input[type=submit] {
+      height: 2.5em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
+}
+
+dl.resource {
+  dt, dd {
+    height: 1.5em;
+    padding: 0.75em;
+  }
+  dt:not(:last-of-type), dd:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+  }
+  dt {
+    float: left;
+    font-weight: bold;
+    width: 8em;
+  }
+}
+
+table.resources {
+  
+  margin-bottom: 1em;
+
+  tr {
+
+    border-bottom: 1px solid #aaa;
+
+    th {
+      &:not(:last-of-type) { padding-right: 1em; }
+      padding: 0.5em 0;
+      text-align: left;
+    }
+
+    td {
+      &:not(:last-of-type) { padding-right: 1em; }
+      padding: 1em 0;
+      text-align: left;
+    }
+
+    .links {
+      @include values;
+    }
+
+    .image-links {
+
+      @include image-links;
+
+      > li > a {
+        .icon {
+          background: url(icons/16x16/default.png) no-repeat;
+          color: transparent;
+          display: inline-block;
+          height: 16px;
+          width: 16px;
+        }
+        .icon-email {
+          background: url(icons/16x16/email.png) no-repeat;
+        }
+        .icon-facebook {
+          background: url(icons/16x16/facebook.png) no-repeat;
+        }
+        .icon-twitter {
+          background: url(icons/16x16/twitter.png) no-repeat;
+        }
+        .icon-www {
+          background: url(icons/16x16/www.png) no-repeat;
+        }
+      }
+    }
+  }
+  
+}

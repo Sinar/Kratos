@@ -1,6 +1,6 @@
 class MembersController < ApplicationController
 
-  before_filter :authenticate_user!, :only => [:create, :update, :destroy]
+  before_filter :authenticate_user!, :only => [:new, :create, :edit, :update, :destroy]
   load_and_authorize_resource
 
   # GET /members

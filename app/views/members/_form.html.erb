@@ -1,8 +1,8 @@
-<%= form_for(@member) do |f| %>
+<%= simple_form_for(@member) do |f| %>
+
   <% if @member.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@member.errors.count, "error") %> prohibited this member from being saved:</h2>
-
       <ul>
       <% @member.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
@@ -10,48 +10,23 @@
       </ul>
     </div>
   <% end %>
+  
+  <%= field_set_tag do %>
+    <% if @member.persisted? %>
+      <%= f.input :uuid, :label => 'UUID', :readonly => true, :hint => 'Auto-generated UUID, not changeable!' %>
+    <% end %>
+    <%= f.input :name %>
+    <%= f.input :email %>
+    <%= f.input :facebook %>
+    <%= f.input :twitter %>
+    <%= f.input :www %>
+    <%= f.input :phone %>
+    <%= f.input :birthday %>
+    <%= f.input :biography %>
+    <%= f.input :deceased_at %>
+  <% end %>
+  <ul class="actions">
+    <li><%= f.submit %></li>
+  </ul>
 
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :facebook %><br />
-    <%= f.text_field :facebook %>
-  </div>
-  <div class="field">
-    <%= f.label :twitter %><br />
-    <%= f.text_field :twitter %>
-  </div>
-  <div class="field">
-    <%= f.label :www %><br />
-    <%= f.text_field :www %>
-  </div>
-  <div class="field">
-    <%= f.label :phone %><br />
-    <%= f.text_field :phone %>
-  </div>
-  <div class="field">
-    <%= f.label :birthday %><br />
-    <%= f.date_select :birthday %>
-  </div>
-  <div class="field">
-    <%= f.label :biography %><br />
-    <%= f.text_area :biography %>
-  </div>
-  <div class="field">
-    <%= f.label :birthday %><br />
-    <%= f.date_select :birthday %>
-  </div>
-  <div class="field">
-    <%= f.label :deceased_at %><br />
-    <%= f.date_select :deceased_at %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
 <% end %>
