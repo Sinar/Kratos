@@ -1,55 +1,31 @@
-<p id="notice"><%= notice %></p>
+<h1><%= @member.name %></h1>
+<hr/>
+<ul class="links">
+  <% if user_signed_in? %>
+    <li><%= link_to 'Edit', edit_member_path(@member) %></li>
+  <% end %>
+  <li><%= link_to 'Back', members_path %></li>
+</ul>
 
-<p>
-  <b>Name:</b>
-  <%= @member.name %>
-</p>
-
-<p>
-  <b>Email:</b>
-  <%= @member.email %>
-</p>
-
-<p>
-  <b>Facebook:</b>
-  <%= @member.facebook %>
-</p>
-
-<p>
-  <b>Twitter:</b>
-  <%= @member.twitter %>
-</p>
-
-<p>
-  <b>Www:</b>
-  <%= @member.www %>
-</p>
-
-<p>
-  <b>Phone:</b>
-  <%= @member.phone %>
-</p>
-
-<p>
-  <b>Birthday:</b>
-  <%= @member.birthday %>
-</p>
-
-<p>
-  <b>Biography:</b>
-  <%= @member.biography %>
-</p>
-
-<p>
-  <b>Birthday:</b>
-  <%= @member.birthday %>
-</p>
-
-<p>
-  <b>Deceased at:</b>
-  <%= @member.deceased_at %>
-</p>
-
-
-<%= link_to 'Edit', edit_member_path(@member) %> |
-<%= link_to 'Back', members_path %>
+<dl class="resource">
+  <dt>Name</dt><dd><%= @member.name %></dd>
+  <dt>Party</dt>
+  <dd>
+    <% if @member.party %>
+      <%= link_to(@member.party.name, @member.party) %>
+      <% if @member.party.coalition %>
+        (<%= @member.party.coalition.code %>)
+      <% end %>
+    <% else %>
+      Independent
+    <% end %>
+  </dd>
+  <dt>Email</dt><dd><%= mail_to(@member.email, nil, :encode => 'hex', :replace_at => '_at_', :replace_dot => '_dot_') if @member.email %></dd>
+  <dt>Facebook</dt><dd><%= link_to(@member.facebook, @member.facebook, :target => '_new') if @member.facebook %></dd>
+  <dt>Twitter</dt><dd><%= link_to(@member.twitter, @member.twitter, :target => '_new') if @member.twitter %></dd>
+  <dt>WWW</dt><dd><%= link_to(@member.www, @member.www, :target => '_new') if @member.www %></dd>
+  <dt>Phone</dt><dd><%= @member.phone %></dd>
+  <dt>Birthday</dt><dd><%= @member.birthday %></dd>
+  <dt>Biography</dt><dd><%= @member.biography %></dd>
+  <dt>Deceased at</dt><dd><%= @member.deceased_at %></dd>
+</dl>

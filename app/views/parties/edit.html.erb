@@ -1,0 +1,10 @@
+<h1>Edit party</h1>
+<hr/>
+<% if user_signed_in? %>
+  <ul class="links"><!--
+ --><li><%= link_to 'Show', @party %></li><!--
+ --><li><%= link_to 'Back', parties_path %></li>
+  </ul>
+<% end %>
+
+<%= render 'form' %>

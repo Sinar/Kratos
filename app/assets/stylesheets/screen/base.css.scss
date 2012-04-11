@@ -1,0 +1,54 @@
+/* More Helpers
+ */
+
+@mixin border-radius($brtl: 0.5em, $brtr: 0.5em, $brbr: 0.5em, $brbl: 0.5em) {
+  -webkit-border-radius: $brtl, $brtr, $brbr, $brbl;
+  -moz-border-radius: $brtl, $brtr, $brbr, $brbl;
+  border-radius: $brtl, $brtr, $brbr, $brbl;
+}
+
+@mixin box-shadow($offset-x, $offset-y, $blur, $spread, $color) {
+  $v: $offset-x $offset-y $blur $spread $color;
+  -webkit-box-shadow: $v;
+  -moz-box-shadow: $v;
+  box-shadow: $v;
+}
+
+@mixin lines {
+  display: block;
+  margin: 0;
+  padding: 0;
+  > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@mixin values {
+  @include lines;
+  > li {
+    display: inline;
+  }
+}
+
+@mixin links {
+  @include values;
+  > li {
+    &:not(:last-of-type):after {
+      content: "|";
+    }
+    a {
+      margin: 0 0.25em;
+    }
+  }
+}
+
+@mixin image-links {
+  @include values;
+  font-size: 0;
+  > li > a {
+    display: inline-block;
+    margin-right: 4px; /*0.33em of 12px*/
+  }
+}

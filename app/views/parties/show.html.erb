@@ -1,0 +1,16 @@
+<h1><%= @party.name %> (<%= @party.code %>)</h1>
+<hr/>
+<ul class="links">
+  <% if user_signed_in? %>
+    <li><%= link_to 'Edit', edit_party_path(@party) %></li>
+  <% end %>
+  <li><%= link_to 'Back', parties_path %></li>
+</ul>
+
+<dl class="resource">
+  <dt>Name</dt><dd><%= @party.name %></dd>
+  <dt>Coalition</dt><dd><%= ('%s (%s)' % [@party.coalition.name, @party.coalition.code]) if @party.coalition %></dd>
+  <dt>Founded</dt><dd><%= @party.founded_in %></dd>
+  <dt>Disbanded</dt><dd><%= @party.disbanded_in %></dd>
+</dl>
+

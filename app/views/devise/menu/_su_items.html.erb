@@ -1,8 +1,8 @@
 <% if user_signed_in? %>
-<nav>
-  <li><%= link_to current_user.email, current_user %></li>
-  <li>
-    <%= link_to 'Logout', destroy_user_session_path, :method => :delete %>
-  </li>
-</nav>
+  <nav>
+    <ul class="links"><!--
+   --><li><%= link_to current_user.email, current_user %></li><!--
+   --><li><%= link_to 'Bye', destroy_user_session_path, :method => :delete %></li>
+    </ul>
+  </nav>
 <% end %>

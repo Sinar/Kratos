@@ -1,9 +1,8 @@
-<%= form_for(@user) do |f| %>
+<%= simple_form_for(@user) do |f| %>
 
   <% if @user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
-
       <ul>
       <% @user.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
@@ -12,16 +11,25 @@
     </div>
   <% end %>
 
-  <dl>
-    <dt><%= f.label :email %></dt><dd><%= f.text_field :email %></dd>
-    <dt><%= f.label :role %></dt><dd><%= f.enum_select :role, :selected => :admin, :disabled => :anonymous, :include_blank => false %></dd>
-    <dt><%= f.label :password %></dt><dd><%= f.password_field :password %></dd>
-    <% unless @user.persisted? %>
-      <dt><%= f.label :password_confirmation %></dt><dd><%= f.password_field :password_confirmation %></dd>
+  <%= field_set_tag do %>
+    <% if @user.persisted? %>
+      <%= f.input :uuid, :label => 'UUID', :readonly => true, :hint => 'Auto-generated UUID, not changeable!' %>
     <% end %>
-  </dl>
+    <%= f.input :email, :hint => 'Login ID, must be unique.' %>
+    <%= f.input :role do %>
+      <%= f.enum_select :role, :selected => :admin, :disabled => :anonymous, :include_blank => false %>
+    <% end %>
+    <%= f.input :password do %>
+      <%= f.password_field :password %>
+    <% end %>
+    <% unless @user.persisted? %>
+      <!--<%= f.input :password_confirmation do %>
+        <%= f.password_field :password_confirmation %>
+      <% end %>-->
+    <% end %>
+  <% end %>
+  <ul class="actions">
+    <li><%= f.submit %></li>
+  </ul>
 
-  <div class="actions">
-    <%= f.submit %>
-  </div>
 <% end %>

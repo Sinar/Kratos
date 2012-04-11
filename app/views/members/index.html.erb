@@ -1,41 +1,55 @@
-<h1>Listing members</h1>
+<h1>Members</h1>
+<hr/>
+<% if user_signed_in? %>
+  <ul class="links"><!--
+ --><!--li><%= link_to 'New member', new_member_path %></li-->
+  </ul>
+<% end %>
 
-<table>
+<table class="resources">
+
   <tr>
     <th>Name</th>
-    <th>Email</th>
-    <th>Facebook</th>
-    <th>Twitter</th>
-    <th>Www</th>
-    <th>Phone</th>
-    <th>Birthday</th>
-    <th>Biography</th>
-    <th>Birthday</th>
-    <th>Deceased at</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Party</th>
+    <th>Connect</th>
+    <% if user_signed_in? %>
+      <th>Actions</th>
+    <% end %>
   </tr>
 
 <% @members.each do |member| %>
   <tr>
-    <td><%= member.name %></td>
-    <td><%= member.email %></td>
-    <td><%= member.facebook %></td>
-    <td><%= member.twitter %></td>
-    <td><%= member.www %></td>
-    <td><%= member.phone %></td>
-    <td><%= member.birthday %></td>
-    <td><%= member.biography %></td>
-    <td><%= member.birthday %></td>
-    <td><%= member.deceased_at %></td>
-    <td><%= link_to 'Show', member %></td>
-    <td><%= link_to 'Edit', edit_member_path(member) %></td>
-    <td><%= link_to 'Destroy', member, confirm: 'Are you sure?', method: :delete %></td>
+    <td>
+      <%= link_to member.name, member %>
+    </td>
+    <td>
+      <%= link_to member.party.code, member.party if member.party %>
+    </td>
+    <td>
+      <ul class="image-links">
+        <% if member.email %>
+          <li><%= mail_to(member.email, content_tag(:span, 'Email', :class => 'icon icon-email'), :encode => 'hex') if member.email %></li>
+        <% end %>
+        <% if member.facebook %>
+          <li><a href="<%= member.facebook %>" target="_new"><span class="icon icon-facebook">Facebook</span></a></li>
+        <% end %>
+        <% if member.twitter %>
+          <li><a href="<%= member.twitter %>" target="_new"><span class="icon icon-twitter">Twitter</span></a></li>
+        <% end %>
+        <% if member.www %>
+          <li><a href="<%= member.www %>" target="_new"><span class="icon icon-www">Site</span></a></li>
+        <% end %>
+      </ul>
+    </td>
+    <% if user_signed_in? %>
+      <td>
+        <ul class="links">
+          <li><%= link_to 'Edit', edit_member_path(member) %></li>
+          <li><%= link_to 'Destroy', member, confirm: 'Are you sure?', method: :delete %></li>
+        </ul>
+      </td>
+    <% end %>
   </tr>
 <% end %>
+
 </table>
-
-<br />
-
-<%= link_to 'New Member', new_member_path %>
