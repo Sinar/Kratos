@@ -55,22 +55,22 @@ parties = Party.create([
 ])
 
 coalitionships = Coalitionship.create([
-  { coalition_code: 'BN', party_code: 'UMNO', joined_at: 1973 },
-  { coalition_code: 'BN', party_code: 'MCA', joined_at: 1973 },
-  { coalition_code: 'BN', party_code: 'MIC', joined_at: 1973 },
-  { coalition_code: 'BN', party_code: 'GERAKAN', joined_at: 1973 },
-  { coalition_code: 'BN', party_code: 'PPP', joined_at: 1973 },
-  { coalition_code: 'BN', party_code: 'PBB', joined_at: 1973 },
-  { coalition_code: 'BN', party_code: 'SUPP', joined_at: 1973 },
-  { coalition_code: 'BN', party_code: 'PBS', joined_at: 2002 },
-  { coalition_code: 'BN', party_code: 'LDP', joined_at: 1991 },
-  { coalition_code: 'BN', party_code: 'PBRS', joined_at: 1994 },
-  { coalition_code: 'BN', party_code: 'UPKO', joined_at: 1994 },
-  { coalition_code: 'BN', party_code: 'SPDP', joined_at: 2002 },
-  { coalition_code: 'BN', party_code: 'PRS', joined_at: 2004 },
-  { coalition_code: 'PR', party_code: 'PKR', joined_at: 2008 },
-  { coalition_code: 'PR', party_code: 'DAP', joined_at: 2008 },
-  { coalition_code: 'PR', party_code: 'PAS', joined_at: 2008 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 0].uuid, joined_at: 1973 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 1].uuid, joined_at: 1973 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 2].uuid, joined_at: 1973 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 3].uuid, joined_at: 1973 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 4].uuid, joined_at: 1973 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 5].uuid, joined_at: 1973 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 6].uuid, joined_at: 1973 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 7].uuid, joined_at: 2002 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 8].uuid, joined_at: 1991 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 9].uuid, joined_at: 1994 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[10].uuid, joined_at: 1994 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[11].uuid, joined_at: 2002 },
+  { coalition_uuid: coalitions[0].uuid, party_uuid: parties[12].uuid, joined_at: 2004 },
+  { coalition_uuid: coalitions[1].uuid, party_uuid: parties[13].uuid, joined_at: 2008 },
+  { coalition_uuid: coalitions[1].uuid, party_uuid: parties[14].uuid, joined_at: 2008 },
+  { coalition_uuid: coalitions[1].uuid, party_uuid: parties[15].uuid, joined_at: 2008 },
 ])
 
 # Members
