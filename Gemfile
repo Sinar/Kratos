@@ -10,6 +10,7 @@ gem 'devise'
 gem 'composite_primary_keys'
 gem 'enumerated_attribute'
 gem 'pg'
+gem 'simple_form'
 gem 'uuidtools'
 gem 'validatious'
 gem 'yaml_db'
@@ -20,7 +21,6 @@ group :assets do
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
-  gem 'simple_form'
 end
 
 gem 'jquery-rails'
