@@ -3,7 +3,7 @@ require 'json'
 # Geo
 
 ## See: http://en.wikipedia.org/wiki/ISO_3166-2:MY
-regions = Region.create([
+regions = Region.create!([
   { code: '01', name: 'Johor' },
   { code: '02', name: 'Kedah' },
   { code: '03', name: 'Kelantan' },
@@ -24,13 +24,13 @@ regions = Region.create([
 
 # Parties
 
-coalitions = Coalition.create([
+coalitions = Coalition.create!([
   { code: 'BN', name: 'National Front', name_in_malay: 'Barisan Nasional', founded_in: 1973 },
   { code: 'PR', name: 'People\'s Pact', name_in_malay: 'Pakatan Rakyat', founded_in: 2008 }
 ])
 
 ## See: http://en.wikipedia.org/wiki/List_of_political_parties_in_Malaysia
-parties = Party.create([
+parties = Party.create!([
   { code: 'UMNO', name: 'United Malays National Organisation', name_in_malay: 'Pertubuhan Kebangsaan Melayu Bersatu', founded_in: 1946 },
   { code: 'MCA', name: 'Malaysian Chinese Association', name_in_malay: 'Persatuan Cina Malaysia', founded_in: 1949 },
   { code: 'MIC', name: ' Malaysian Indian Congress', name_in_malay: 'Kongres India Malaysia', founded_in: 1946 },
@@ -54,7 +54,7 @@ parties = Party.create([
   { code: 'SAPP', name: 'Sabah Progressive Party', name_in_malay: 'Parti Maju Sabah', founded_in: 1994 },
 ])
 
-coalitionships = Coalitionship.create([
+coalitionships = Coalitionship.create!([
   { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 0].uuid, joined_at: 1973 },
   { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 1].uuid, joined_at: 1973 },
   { coalition_uuid: coalitions[0].uuid, party_uuid: parties[ 2].uuid, joined_at: 1973 },
@@ -93,8 +93,13 @@ JSON.parse(File.open(File.dirname(__FILE__) + '/members.json').read).each do |e|
     fax = e['No_Fax'][/^([\d \-]+)(?:,|\/)*/, 1].gsub(/[\-\s]/, '')
   end
 
-  member = Member.create({ name: e['Nama'], email: email, phone: phone, fax: fax })
-  PartyMembership.create({ member: member, party: party, joined_at: 2011 }).inspect # We assume that everyone joins their party before an election. Fix it up next time.
+  member = Member.create!({ name: e['Nama'], email: email, phone: phone, fax: fax })
+  PartyMembership.create!({
+    member: member,
+    party: party,
+    # We assume that everyone joins their party before an election. Fix it up next time.
+    joined_at: 2011
+  }) if party
 
   members_by_constituency[e['Parlimen']] = member
 
@@ -106,7 +111,7 @@ end
 # See: http://en.wikipedia.org/wiki/District#Malaysia
 
 JSON.parse(File.open(File.dirname(__FILE__) + '/constituencies.json').read).each do |e|
-  constituency = Constituency.create({
+  constituency = Constituency.create!({
     region: regions.select { |r| r.code == sprintf('%02d', e['region']) }.first,
     member: members_by_constituency[e['id']],
     name: e['name'].split(' ').map { |w| w.capitalize }.join(' '),
@@ -121,6 +126,6 @@ JSON.parse(File.open(File.dirname(__FILE__) + '/sites.json').read).each do |e|
   unless (constituency = Constituency.where(:iteration => 12, :code => code).limit(1).first).nil?
     member = constituency.member
     member.assign_attributes({ facebook: e['facebook_url'], twitter: e['twitter_url'], www: e['website_url'] })
-    member.save
+    member.save!
   end
 end
