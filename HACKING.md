@@ -39,12 +39,21 @@ To insert the default set of data (especially as we want to fix the UUID of cert
 
 The dumps in `fixtures/dumps` are created via:
 
-    rake db:seed (works only for pre-20120314193450 migration)
+    rake db:seed (please check commented lines in seeds.rb)
     rm -rf db/fixtures/dumps && rake db:data:dump_dir dir="fixtures/dumps"
+
+## PostgreSQL
+
+At the point of writing, Kratos is deployed to Heroku that requires a PostgreSQL set up.
+
+[On a Ubuntu machine](http://stackoverflow.com/a/3116128/36397):
+
+    sudo apt-get install postgresql libpq-dev
+    bundle install
 
 ## Changes
 
-If the schema is changed (certainly through `rake db:migrate`), besides of creating new dumps, you also need to do a [migration for your tests](http://stackoverflow.com/questions/4949319/factorygirl-rspec-rails-3-undefined-method-attribute) to work:
+If the schema is changed (certainly through `rake db:migrate`), besides of creating new dumps, you also need to do a [migration for your tests](http://stackoverflow.com/q/4949319) to work:
 
     rake db:test:load
 
