@@ -10,7 +10,8 @@ class User < ActiveRecord::Base
   enum_attr :role, %w(admin basic anonymous)
 
   validates_uniqueness_of :uuid
-  validates_uniqueness_of :email
+  validates :email, :presence => true, :uniqueness => true, :email => true
+  validates_length_of :password, :presence => true, :in => 4..32, :allow_blank => false
 
   def to_param
     uuid

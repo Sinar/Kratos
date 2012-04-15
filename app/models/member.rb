@@ -5,8 +5,16 @@ class Member < ActiveRecord::Base
   include UUIDHelper
   set_primary_key :uuid
 
-  validates_uniqueness_of :uuid
   has_many :party_memberships, :primary_key => 'uuid', :foreign_key => 'member_uuid'
+
+  validates :uuid, :uniqueness => true
+  validates :name, :length => { :minimum => 1, :maximum => 255 }
+  validates :email, :email => true, :allow_nil => true
+  validates :facebook, :url => true, :allow_nil => true
+  validates :twitter, :url => true, :allow_nil => true
+  validates :www, :url => true, :allow_nil => true
+  validates :phone, :format => { :with => /^0[0-9]+/ }, :allow_nil => true
+  validates :fax, :format => { :with => /^0[0-9]+/ }, :allow_nil => true
 
   def to_param
     uuid

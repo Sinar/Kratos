@@ -11,6 +11,7 @@ gem 'composite_primary_keys'
 gem 'enumerated_attribute'
 gem 'sqlite3'
 gem 'uuidtools'
+gem 'validatious'
 gem 'yaml_db'
 
 # Gems used only for assets and not required
