@@ -116,8 +116,7 @@ JSON.parse(File.open(File.dirname(__FILE__) + '/constituencies.json').read).each
     member: members_by_constituency[e['id']],
     name: e['name'].split(' ').map { |w| w.capitalize }.join(' '),
     iteration: 12,
-    code: e['id'],
-    valid_until: 2012
+    code: e['id']
   })
 end
 
