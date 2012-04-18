@@ -217,23 +217,23 @@ table.resources {
 
       > li > a {
         .icon {
-          background: url(icons/16x16/default.png) no-repeat;
+          background: image-url("icons/16x16/default.png") no-repeat;
           color: transparent;
           display: inline-block;
           height: 16px;
           width: 16px;
         }
         .icon-email {
-          background: url(icons/16x16/email.png) no-repeat;
+          background: image-url("icons/16x16/email.png") no-repeat;
         }
         .icon-facebook {
-          background: url(icons/16x16/facebook.png) no-repeat;
+          background: image-url("icons/16x16/facebook.png") no-repeat;
         }
         .icon-twitter {
-          background: url(icons/16x16/twitter.png) no-repeat;
+          background: image-url("icons/16x16/twitter.png") no-repeat;
         }
         .icon-www {
-          background: url(icons/16x16/www.png) no-repeat;
+          background: image-url("icons/16x16/www.png") no-repeat;
         }
       }
     }
