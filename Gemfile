@@ -10,6 +10,7 @@ gem 'devise'
 gem 'composite_primary_keys'
 gem 'enumerated_attribute'
 gem 'pg'
+gem 'simple_form'
 gem 'uuidtools'
 gem 'validatious'
 gem 'yaml_db'
@@ -17,10 +18,9 @@ gem 'yaml_db'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.1.4'
+  gem 'sass-rails',   '3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
-  gem 'simple_form'
 end
 
 gem 'jquery-rails'
@@ -40,6 +40,9 @@ group :development do
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'ruby-debug-ide'
   gem 'sqlite3'
+  # Heroku
+  # See: https://devcenter.heroku.com/articles/taps
+  gem 'taps'
 end
 
 # RSpec must be added into the development group, else, specs won't run.

@@ -10,7 +10,6 @@
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
-    <%= yield :head %>
   </head>
   <body id="<%= params[:controller] + '-' + params[:action] %>">
 
@@ -31,7 +30,8 @@
     <article role="main"><%= yield %></article>
 
     <footer></footer>
-    <%= javascript_include_tag 'script' %>
+    <%# Will work on pulling it down here from default manifest next time. %>
+    <%# = javascript_include_tag 'script' %>
     <script>
       var _gaq=[['_setAccount','UA-29734766-4'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
