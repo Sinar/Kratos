@@ -40,6 +40,9 @@ group :development do
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'ruby-debug-ide'
   gem 'sqlite3'
+  # Heroku
+  # See: https://devcenter.heroku.com/articles/taps
+  gem 'taps'
 end
 
 # RSpec must be added into the development group, else, specs won't run.
