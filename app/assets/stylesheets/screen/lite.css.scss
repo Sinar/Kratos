@@ -41,7 +41,12 @@ header {
     font-family: 'Rock Salt';
     font-size: 2em;
 
-    >small {
+    a, a:active, a:hover, a:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    small {
       font-family: $serif;
       font-size: 0.4em;
       left: -8em;

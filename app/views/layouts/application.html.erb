@@ -11,13 +11,14 @@
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
+  <%# A better way to differentiate content? http://stackoverflow.com/a/7300024/36397 -%>
   <body id="<%= params[:controller] + '-' + params[:action] %>">
 
     <header>
-      <span id="logo">
+      <span id="logo"><a href="<%= root_url %>">
         Kratos
         <small>The people app for people's power</small>
-      </span>
+      </a></span>
       <%= render 'devise/menu/su_items' %>
     </header>
 
