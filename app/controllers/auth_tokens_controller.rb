@@ -10,8 +10,7 @@ class AuthTokensController < ApplicationController
 
   def destroy
     @user = User.find(params[:id])
-    @user.authentication_token = nil
-    @user.save
+    @user.update_attribute(:authentication_token, nil)
     redirect_to user_path(@user)
   end
 
