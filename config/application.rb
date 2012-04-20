@@ -50,7 +50,8 @@ module Kratos
     # http://rubyonrailsdevelopment.pl/archives/secure-cookies-in-ruby-on-rails
     config.action_dispatch.session = {
         :key => '_app_session',
-        :secret => 'fu8cked15ap25up2EnoadroaqLULZ4ep',
+        # A better way to handle config if pull out from Heroku: http://icebergist.com/posts/paperclip-heroku-and-amazon-s3-credentials
+        :secret => ENV['SESSION_SECRET'] || 'fu8cked15ap25up2EnoadroaqLULZ4ep',
         :expire_after => 3600
     }
 
