@@ -35,11 +35,14 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 group :development do
-  gem 'linecache19'
-  gem 'ruby-debug-base19'
-  gem 'ruby-debug19', :require => 'ruby-debug'
-  gem 'ruby-debug-ide'
-  gem 'sqlite3'
+  # Too many mysteries behind, use 'debugger' instead.
+  # See: http://stackoverflow.com/a/10024840/36397
+  gem 'debugger'
+  # gem 'linecache19'
+  # gem 'ruby-debug-base19'
+  # gem 'ruby-debug19', :require => 'ruby-debug'
+  # I reckon the developer should gem install this manually.
+  # gem 'ruby-debug-ide'
   # Heroku
   # See: https://devcenter.heroku.com/articles/taps
   gem 'taps'
@@ -52,6 +55,9 @@ group :development, :test do
 end
 
 group :test do
+  # Test is run locally, not on Heroku except CI 
+  # See: http://stackoverflow.com/q/5035828/36397
+  gem 'sqlite3'
   # Cucumber dependencies
   # gem 'cucumber-rails'
   # gem 'cucumber-api-steps'
