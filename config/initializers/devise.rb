@@ -1,5 +1,9 @@
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
+#
+# See:
+#   - https://github.com/plataformatec/devise/wiki/How-To:-Upgrade-to-Devise-2.0
+#   - https://github.com/plataformatec/devise/wiki/How-To:-Upgrade-to-Devise-2.1
 Devise.setup do |config|
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -77,7 +81,7 @@ Devise.setup do |config|
   # able to access the website for two days without confirming his account,
   # access will be blocked just in the third day. Default is 0.days, meaning
   # the user cannot access the website without confirming his account.
-  # config.confirm_within = 2.days
+  # config.allow_unconfirmed_access_for = 2.days
 
   # Defines which key will be used when confirming an account
   # config.confirmation_keys = [ :email ]
@@ -86,15 +90,8 @@ Devise.setup do |config|
   # The time the user will be remembered without asking for credentials again.
   # config.remember_for = 2.weeks
 
-  # If true, a valid remember token can be re-used between multiple browsers.
-  # config.remember_across_browsers = true
-
   # If true, extends the user's remember period when remembered via cookie.
   # config.extend_remember_period = false
-
-  # If true, uses the password salt as remember token. This should be turned
-  # to false if you are not using database authenticatable.
-  config.use_salt_as_remember_token = true
 
   # Options to be passed to the created cookie. For instance, you can set
   # :secure => true in order to force SSL only cookies.
@@ -159,9 +156,12 @@ Devise.setup do |config|
   # Defines name of the authentication token params key
   config.token_authentication_key = :auth_token
 
-  # If true, authentication through token does not store user in session and needs
-  # to be supplied on each request. Useful if you are using the token as API token.
-  config.stateless_token = false
+  # By default Devise will store the user in session.You can skip storage for http
+  # and token auth by appending values to array::skip_session_storage => [:token_auth]
+  # or :skip_session_storage => [:http_auth, :token_auth],by default is set to
+  # :skip_session_storage => [:http_auth].
+  # See: https://github.com/plataformatec/devise/wiki/How-To:-Upgrade-to-Devise-2.0
+  config.skip_session_storage = [:http_auth, :token_auth]
 
   # ==> Scopes configuration
   # Turn scoped views on. Before rendering "sessions/new", it will first check for

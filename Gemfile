@@ -6,6 +6,7 @@ gem 'rails', '3.1.1'
 
 gem 'cancan'
 gem 'devise'
+gem 'devise-encryptable'
 
 gem 'composite_primary_keys'
 gem 'enumerated_attribute'
