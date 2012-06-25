@@ -1,6 +1,7 @@
 class District < ActiveRecord::Base
 
   include UUIDHelper
+  nilify_blanks
   set_primary_key :uuid
 
   belongs_to :constituency, :primary_key => 'uuid', :foreign_key => 'constituency_uuid'

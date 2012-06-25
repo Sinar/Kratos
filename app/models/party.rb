@@ -3,6 +3,7 @@ require 'uuid_helper'
 class Party < ActiveRecord::Base
 
   include UUIDHelper
+  nilify_blanks
   set_primary_key :uuid
 
   has_many :coalitionships, :primary_key => 'uuid', :foreign_key => 'party_uuid'

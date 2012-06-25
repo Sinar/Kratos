@@ -85,6 +85,9 @@ GEM
     meta_programming (0.2.2)
     mime-types (1.18)
     multi_json (1.3.5)
+    nilify_blanks (1.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
     orm_adapter (0.0.7)
     pg (0.13.2)
     polyglot (0.3.3)
@@ -189,6 +192,7 @@ DEPENDENCIES
   factory_girl_rails
   jquery-rails
   json_spec
+  nilify_blanks
   pg
   rack-test
   rails (= 3.1.1)

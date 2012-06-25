@@ -1,6 +1,7 @@
 class Constituency < ActiveRecord::Base
 
   include UUIDHelper
+  nilify_blanks
   set_primary_key :uuid
 
   belongs_to :region, :primary_key => 'code', :foreign_key => 'region_code'

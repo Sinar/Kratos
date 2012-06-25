@@ -10,6 +10,7 @@ gem 'devise-encryptable'
 
 gem 'composite_primary_keys'
 gem 'enumerated_attribute'
+gem 'nilify_blanks'
 gem 'pg'
 gem 'simple_form'
 gem 'uuidtools'
