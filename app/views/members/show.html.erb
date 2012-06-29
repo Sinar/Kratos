@@ -8,7 +8,9 @@
 </ul>
 
 <dl class="resource">
-  <dt>Name</dt><dd><%= @member.name %></dd>
+  <% unless @member.biography.blank? %>
+    <dt id="member-biography" class="hidden">Biography</dt><dd><%= markup @member.biography %></dd>
+  <% end %>
   <dt>Party</dt>
   <dd>
     <% if @member.party %>
@@ -26,6 +28,8 @@
   <dt>WWW</dt><dd><%= link_to(@member.www, @member.www, :target => '_new') if @member.www %></dd>
   <dt>Phone</dt><dd><%= @member.phone %></dd>
   <dt>Birthday</dt><dd><%= @member.birthday %></dd>
-  <dt>Biography</dt><dd><%= @member.biography %></dd>
   <dt>Deceased at</dt><dd><%= @member.deceased_at %></dd>
+  <% unless @member.more.blank? %>
+    <dt id="member-more" class="hidden">More</dt><dd><%= markup @member.more %></dd>
+  <% end %>
 </dl>
