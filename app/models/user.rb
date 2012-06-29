@@ -12,7 +12,7 @@ class User < ActiveRecord::Base
 
   validates :uuid, :uniqueness => true
   validates :email, :presence => true, :uniqueness => true, :email => true
-  validates_length_of :password, :presence => true, :in => 4..32, :allow_blank => false
+  validates_length_of :password, :presence => true, :in => 4..64, :allow_blank => false
 
   def to_param
     uuid
