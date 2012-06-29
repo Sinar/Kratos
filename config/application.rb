@@ -45,6 +45,10 @@ module Kratos
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    # While precompiling assets, you can prevent initializing your application and connecting to the database
+    # See: https://devcenter.heroku.com/articles/rails3x-asset-pipeline-cedar#troubleshooting
+    config.assets.initialize_on_precompile = false
+
     # Secure your cookie-based session.
     # http://guides.rubyonrails.org/security.html#session-storage
     # http://rubyonrailsdevelopment.pl/archives/secure-cookies-in-ruby-on-rails
