@@ -22,8 +22,20 @@
     <%= f.input :www %>
     <%= f.input :phone %>
     <%= f.input :birthday %>
-    <%= f.input :biography %>
     <%= f.input :deceased_at %>
+    <%= f.input :biography, :hint => 'Use <a href="http://daringfireball.net/projects/markdown/syntax" target="_new">Markdown syntax</a> to produce better markup. This field also supports the non-standard <a href="http://kramdown.rubyforge.org/syntax.html" target="_new">Markdown Extra syntax</a>.' %>
+    <%= f.input :more, :hint =>
+      'This is an extension to support arbitrary content. Use the <a href="http://kramdown.rubyforge.org/syntax.html#definition-lists" target="_new">Markdown Extra\'s definition list</a>, e.g. ' +
+      <<HTML
+<pre>
+Nickname
+: The old man
+
+Magnum Opus
+: Phenomenology of the Spirit
+</pre>
+HTML
+    %>
   <% end %>
   <ul class="actions">
     <li><%= f.submit %></li>

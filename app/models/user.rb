@@ -3,6 +3,7 @@ require 'uuid_helper'
 class User < ActiveRecord::Base
 
   include UUIDHelper
+  nilify_blanks
   set_primary_key :uuid
 
   attr_accessible :email, :password, :remember_me

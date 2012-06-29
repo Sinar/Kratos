@@ -1,3 +1,8 @@
-// Place all the styles related to the Members controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#members-show dt#member-biography + dd {
+  font-size: 1.2em;
+  padding: 0.66em;
+}
+
+#members-show dt#member-more + dd {
+  padding: 0em;
+}

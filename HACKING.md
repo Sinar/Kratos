@@ -4,7 +4,7 @@ Kratos Hacker's Guide
 Environment
 -----------
 
-# Quick Setup
+### Quick Setup
 
     rvm install 1.9.3-p0
     rvm use 1.9.3-p0
@@ -20,13 +20,13 @@ Or (if you are not gonna develop but deploy):
 
     bundle install --without development
 
-# Quick Setup (Windows)
+### Quick Setup (Windows)
 
     pik list -r
     pik install ruby 1.9.3-p0
     ...
   
-# Upgrading Rails
+### Upgrading Rails
 
     gem update rails
     rake rails:update
@@ -34,7 +34,7 @@ Or (if you are not gonna develop but deploy):
 Database
 --------
 
-# Creation
+### Creation
 
 The default settings use SQLite and if you are looking for a GUI tool, [SQLite Manager](http://code.google.com/p/sqlite-manager/)
 is the right choice.
@@ -50,7 +50,7 @@ The dumps in `fixtures/dumps` are created via:
     rake db:seed (please check commented lines in seeds.rb)
     rm -rf db/fixtures/dumps && rake db:data:dump_dir dir="fixtures/dumps"
 
-# PostgreSQL
+### PostgreSQL
 
 At the point of writing, Kratos is deployed to Heroku that requires a PostgreSQL set up.
 
@@ -59,7 +59,7 @@ At the point of writing, Kratos is deployed to Heroku that requires a PostgreSQL
     sudo apt-get install postgresql libpq-dev
     bundle install
 
-# Changes
+### Changes
 
 If the schema is changed (certainly through `rake db:migrate`), besides of creating new dumps, you also need to do a [migration for your tests](http://stackoverflow.com/q/4949319) to work:
 
@@ -80,3 +80,14 @@ If it fails with missing development gems, install the gems by hand or run the p
 
     rails -e production s
 
+Libraries
+---------
+
+### Devise ###
+
+#### Post Upgrade ####
+
+It seems common that a major Devise upgrade breaks your application - introduction and removal of configuration entries.
+Run this command after an upgrade to have configuration refreshed:
+
+    rails g devise:install
