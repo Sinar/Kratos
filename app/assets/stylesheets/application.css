@@ -8,5 +8,6 @@
  *   - [Using yield to load stylesheets in specific view](http://stackoverflow.com/a/8452515/36397)
  *   - [Page specific JavaScript code](http://stackoverflow.com/q/6167805/36397)
  *= require screen/lite
+ *= require screen/members
  *= require screen/users
 */
