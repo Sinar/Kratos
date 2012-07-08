@@ -14,6 +14,8 @@ Environment
 
 Then, install the gems with:
 
+    git clone https://github.com/Sinar/Kratos.git
+    cd Kratos
     bundle install
 
 Or (if you are not gonna develop but deploy):
