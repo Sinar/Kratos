@@ -1,4 +1,4 @@
-<h1><%= @user.email ? @user.email[/(.+)@/, 1] : @user.uuid %></h1>
+<h1><%= @user.email ? @user.email[/(.+)@/, 1] : @user.uuid %> (<%= @user.role.capitalize %>)</h1>
 <hr/>
 <ul class="links">
   <li><%= link_to 'Edit', edit_user_path(@user) %></li>
