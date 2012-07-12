@@ -59,14 +59,19 @@ class UsersController < ApplicationController
   # PUT /users/1
   # PUT /users/1.json
   def update
+
     @user = User.find(params[:id])
 
-    if params[:user][:password].blank?
-      params[:user].delete(:password)
-    end
-
     respond_to do |format|
-      if @user.update_attributes(params[:user])
+      # See: https://github.com/plataformatec/devise/wiki/How-To%3a-Allow-users-to-edit-their-account-without-providing-a-password
+      ok = unless params[:user][:password].blank?
+        params[:user][:password_confirmation] = params[:user][:password]
+        @user.update_with_password(params[:user])
+      else
+        @user.update_without_password(params[:user])
+      end
+
+      if ok
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
         format.json { head :ok }
       else

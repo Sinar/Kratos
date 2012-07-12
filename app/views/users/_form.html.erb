@@ -17,10 +17,10 @@
     <% end %>
     <%= f.input :email, :hint => 'Login ID, must be unique.' %>
     <%= f.input :role do %>
-      <%= f.enum_select :role, :selected => :admin, :disabled => :anonymous, :include_blank => false %>
+      <%= f.enum_select :role, :disabled => :anonymous, :include_blank => false %>
     <% end %>
     <%= f.input :password do %>
-      <%= f.password_field :password %>
+      <%= f.password_field :password, :autocomplete => "off", :hint => 'Leave this blank unless you want to change the password!' %>
     <% end %>
     <% unless @user.persisted? %>
       <!--<%= f.input :password_confirmation do %>
