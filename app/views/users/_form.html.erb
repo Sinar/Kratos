@@ -20,7 +20,7 @@
       <%= f.enum_select :role, :disabled => :anonymous, :include_blank => false %>
     <% end %>
     <%= f.input :password do %>
-      <%= f.password_field :password, :autocomplete => "off" %>
+      <%= f.password_field :password, :autocomplete => "off", :hint => 'Leave this blank unless you want to change the password!' %>
     <% end %>
     <% unless @user.persisted? %>
       <!--<%= f.input :password_confirmation do %>

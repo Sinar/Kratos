@@ -17,5 +17,16 @@ class User < ActiveRecord::Base
   def to_param
     uuid
   end
+
+  # See: Devise::Models::DatabaseAuthenticatable
+  # See: http://stackoverflow.com/a/5070882/36397
+  def update_with_password(params, *options)
+    if params[:password].blank?
+      params.delete(:password)
+      params.delete(:password_confirmation) if params[:password_confirmation].blank?
+    end
+    update_attributes(params, *options)
+    clean_up_passwords
+  end
   
 end
