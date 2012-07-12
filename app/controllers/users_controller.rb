@@ -65,6 +65,7 @@ class UsersController < ApplicationController
     respond_to do |format|
       # See: https://github.com/plataformatec/devise/wiki/How-To%3a-Allow-users-to-edit-their-account-without-providing-a-password
       ok = unless params[:user][:password].blank?
+        params[:user][:password_confirmation] = params[:user][:password]
         @user.update_with_password(params[:user])
       else
         @user.update_without_password(params[:user])
