@@ -19,6 +19,16 @@
     <%= f.input :code %>
     <%= f.input :founded_in %>
     <%= f.input :disbanded_in %>
+
+    <%= f.simple_fields_for :coalitionships do |co| %>
+      <%= co.input :coalition_uuid, :collection => Coalition.all, :selected => (@party.coalition.try(:uuid) if @party.persisted?), :prompt => "Select coalition", :label => 'Coalition'%>
+
+      <%= co.input :joined_at, :collection => 1970..Time.now.year %>
+
+      <%= co.input :party_uuid, :value => @party.uuid, as: :hidden %>
+    <% end %>
+
+    
   <% end %>
   <ul class="actions">
     <li><%= f.submit %></li>
