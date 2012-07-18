@@ -23,7 +23,7 @@ class PartiesController < ApplicationController
 
   def new
     @party = Party.new
-
+    @party.coalitionships.build
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @party.as_json(:methods => [:coalition]) }
@@ -32,6 +32,7 @@ class PartiesController < ApplicationController
 
   def edit
     @party = Party.find(params[:id])
+    @party.coalitionships.present? ? @party.coalitionships : @party.coalitionships.build
   end
 
   def create
